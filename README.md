@@ -56,5 +56,15 @@ If they keep using original Zimbra:
 
 If my company relied on an 80% percentage on clients whom care on Zimbra being open-source product and it was sure that Zimbra was no longer going to be released under an open source license I would plan on switching to the Zimbra fork while at the same time contributing to it.
 
+## What if Zimbra is always open-source
+ - Q: I think you assume too fast that Zimbra is going to be privative and not being kept released under an open-source license. What will happen to this fork if Synacor states that Zimbra is going to be release under an open-source license for the next several years? What will happen to this fork if Synacor states that Zimbra X is going to be release under an open-source license for the next several years?
+ - A: As I said before Zimbra has never been actually *ethical open source*. I believe that a healthy open source community is the one who can fork a current project under one year without too much hassle with around 20% of the community members.
+ 
+ If Zimbra is kept under an acceptable open-source license our efforts might be redirected to:
+  - Allow the community to build and fork Zimbra just in case it's once again needed in the future
+  - Help to teach new developers on how to contribute source code back to Zimbra
+  - Contribute with extra addons for Zimbra which might be integrated into Zeta Alliance
+  - If Zimbra X is privative we might attempt to extend current Zimbra so that it has an equivalent functionality
+
 # maldua-mirror
 [maldua-mirror](https://github.com/maldua-mirror/maldua-mirror) updates its own git repo fork for each one of the Zimbra organization repos daily at 05:30 UTC. You can explore the forked repos at the [madua-mirror organization page](https://github.com/maldua-mirror).
