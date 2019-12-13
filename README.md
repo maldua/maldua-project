@@ -1,6 +1,10 @@
 # maldua-project
 Humble attempt to fork Zimbra project
 
+# How to contribute
+
+Just use the [project issues page](https://github.com/maldua/maldua-project/issues) as a forum and tell us what you are interested in working on.
+
 # 2020 year objectives
  * Document Ubuntu 16.04 build
  * Automate Ubuntu 16.04 builds and releases thanks to github actions (or equivalent)
