@@ -80,4 +80,4 @@ If my company relied on an 80% percentage on clients whom care on Zimbra being o
   - If Zimbra X is privative we might attempt to extend current Zimbra so that it has an equivalent functionality
 
 # maldua-mirror
-[maldua-mirror](https://github.com/maldua-mirror/maldua-mirror) updates its own git repo fork for each one of the Zimbra organization repos daily at 05:30 UTC. You can explore the forked repos at the [madua-mirror organization page](https://github.com/maldua-mirror).
+[maldua-mirror](https://github.com/maldua-mirror/maldua-mirror) updates its own git repo fork for each one of the Zimbra organization repos daily at 05:30 UTC. You can explore the forked repos at the [maldua-mirror organization page](https://github.com/maldua-mirror).
