@@ -400,7 +400,7 @@ Zimbra connect, docs and drive have been improved to be not only accessed by the
 * zimbra-docs-modern
 * zimbra-drive-modern
 
-The brand new modern uni with zimlets support is unveiled:
+The brand new modern ui with zimlets support is unveiled:
 
 * zimbra-modern-ui
 * zimbra-modern-zimlets
