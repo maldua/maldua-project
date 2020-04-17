@@ -1,0 +1,561 @@
+Package: zimbra-connect
+Version: 2.0.0.1584110417-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 4855
+Depends: zimbra-network-modules-ng (>= 7.0.0), zimbra-connect-modern (>= 1.0.0)
+Conflicts: zimbra-chat, zimbra-talk
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-connect/zimbra-connect_2.0.0.1584110417-1.u18_amd64.deb
+Size: 4897512
+SHA256: f0a2ba4b3c860d58850cffde8e64cd32acbd4c5b7781ca3901f9b4bd8702e8ad
+SHA1: a357861dbe41fb70105bc302c6c779bc45c7975d
+MD5sum: 5ac9580d5965bbf4ef0a2e5b27cfb129
+Description: Zimbra Connect
+
+Package: zimbra-connect
+Version: 2.0.0.1579795729-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 4838
+Depends: zimbra-network-modules-ng (>= 6.0.0)
+Conflicts: zimbra-chat, zimbra-talk
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-connect/zimbra-connect_2.0.0.1579795729-1.u18_amd64.deb
+Size: 4881124
+SHA256: 006c02e4d028f0d1e097f79528e06f80655145a88dc361dd186145863cda53b0
+SHA1: 1c9c02888682b54f62a5a6bfbb966f6bcd12837b
+MD5sum: c955b5e43cc934741b070d19300513f1
+Description: Zimbra Connect
+
+Package: zimbra-connect-modern
+Version: 1.0.0.1584627070-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 5380
+Depends: zimbra-network-modules-ng (>= 7.0.0)
+Conflicts: zimbra-chat, zimbra-talk
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-connect-modern/zimbra-connect-modern_1.0.0.1584627070-1.u18_amd64.deb
+Size: 5403176
+SHA256: 6ab2a71473afd2e9c8a283e85ffbc886d27692d81defad67e130b12120f5c27c
+SHA1: 945bb8ffa4a658bfd99a6f3ae5e4d2bce9e26a6e
+MD5sum: be66f234f88ffd1e45f65d930a6ec93d
+Description: Zimbra Connect for modern UI
+
+Package: zimbra-docs
+Version: 4.0.1.1580287588-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 85
+Depends: zimbra-network-modules-ng (>= 4.0.0)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-docs/zimbra-docs_4.0.1.1580287588-1.u18_amd64.deb
+Size: 69016
+SHA256: 85f94d39f1c3000ceddfb7212d38e61b56e29bde4b1f38a4858dd688938d94bb
+SHA1: af4a9d806cd9c301633a73ad5af61a82df084a9c
+MD5sum: a409c2d3eb3ebcdbed7135ad3eb2214a
+Description: Zimbra Docs
+
+Package: zimbra-docs
+Version: 4.0.0.1580287588-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 85
+Depends: zimbra-network-modules-ng (>= 4.0.0)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-docs/zimbra-docs_4.0.0.1580287588-1.u18_amd64.deb
+Size: 69012
+SHA256: ac5241a042c011286bfb853e21fb3198343018a459ac9fbdada4a5a85ed3b417
+SHA1: 900875f8c7bfb062060bab44eec31509dae1ad66
+MD5sum: 213aea505df3a45de0647bc7c6076b46
+Description: Zimbra Docs
+
+Package: zimbra-docs-modern
+Version: 1.0.0.1584626806-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 48
+Depends: zimbra-network-modules-ng (>= 7.0.0)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-docs-modern/zimbra-docs-modern_1.0.0.1584626806-1.u18_amd64.deb
+Size: 38448
+SHA256: 3f176e5e0c23b774690a96ea0623811fcb0a2011207632964c60da8d7d277abe
+SHA1: 4057d3b2782ea7fc7f6440804fc425895d95db8f
+MD5sum: 1ec3a23bdf83c72084920a780edf196f
+Description: Zimbra Docs for modern UI
+
+Package: zimbra-docs-modern
+Version: 1.0.0.1582109848-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 40
+Depends: zimbra-network-modules-ng (>= 7.0.0)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-docs-modern/zimbra-docs-modern_1.0.0.1582109848-1.u18_amd64.deb
+Size: 29604
+SHA256: 6fcf8b514c1f12929090d6e23475af5a048e6ec5e9bc37041d83b2e2fcd56516
+SHA1: f20bd748c3158196c8748ff86ba479dc74f1d09f
+MD5sum: 94f345a497d5d3023aa485df6a8b94f2
+Description: Zimbra Docs for modern UI
+
+Package: zimbra-drive-modern
+Version: 1.0.0.1584627338-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 6595
+Depends: zimbra-network-modules-ng (>= 7.0.0), zimbra-docs-modern (>= 1.0.0)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-drive-modern/zimbra-drive-modern_1.0.0.1584627338-1.u18_amd64.deb
+Size: 6660392
+SHA256: 3e3a078976c93bf882eb7a1ad4e9d950de1a831c81a8aebba0a8fa39efcec4f8
+SHA1: daef6ea2164ddc7469680ae1beb09c3836da4bde
+MD5sum: 07f51f115b8f143c4e431c6523279748
+Description: Zimbra Drive for modern UI
+
+Package: zimbra-drive-modern
+Version: 1.0.0.1582024115-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 790
+Depends: zimbra-network-modules-ng (>= 7.0.0), zimbra-docs-modern (>= 1.0.0)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-drive-modern/zimbra-drive-modern_1.0.0.1582024115-1.u18_amd64.deb
+Size: 795880
+SHA256: 4a538db89f218fb293ca8ac8e070410539eb1d81630667c16de09ee385d1bf67
+SHA1: 1fe7305c185a20f5ace232744f56997eb039060f
+MD5sum: 9aa5e1afa2f4c1a0f3b9caeb9053e112
+Description: Zimbra Drive for modern UI
+
+Package: zimbra-drive-ng
+Version: 4.0.0.1584107263-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 7994
+Depends: zimbra-network-modules-ng (>= 7.0.0), zimbra-drive-modern (>= 1.0.0), zimbra-docs (>= 2.0.2)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-drive-ng/zimbra-drive-ng_4.0.0.1584107263-1.u18_amd64.deb
+Size: 7657776
+SHA256: 961eb8a34fb753550b668e00012b6aa42c2ea33c7157709d3fb141ffbf48b25a
+SHA1: 9353513521d7dd71f2b633021d93d3b25e537f26
+MD5sum: 3d5ab36d3094d7a0997823108eae2915
+Description: Zimbra Drive
+
+Package: zimbra-drive-ng
+Version: 4.0.0.1579795540-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 7989
+Depends: zimbra-network-modules-ng (>= 5.0.1), zimbra-docs (>= 2.0.2)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-drive-ng/zimbra-drive-ng_4.0.0.1579795540-1.u18_amd64.deb
+Size: 7655484
+SHA256: 6b3620fd5a42c2bbc5568cb565d22e238e3927867a255c1dffc3c3674a6056fc
+SHA1: c3a5a1b5c587d6d73cb94c1c3ee92fa15c668d08
+MD5sum: 74a68ef2471d9198f7c29556cbdb11e8
+Description: Zimbra Drive
+
+Package: zimbra-modern-ui
+Version: 3.2.0.1585823037-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 38754
+Depends: zimbra-network-store (>= 8.8.15)
+Replaces: zimbra-store
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-modern-ui/zimbra-modern-ui_3.2.0.1585823037-1.u18_amd64.deb
+Size: 7161976
+SHA256: 34ba71af67925672ed01e8a22a2270a4012123d04ef192509342006049516727
+SHA1: 77a0cd2b5674a600c9a3a7542b7d164f06fdc848
+MD5sum: a802d144b13faa5e161b7aadafa9e738
+Description: Zimbra X Web
+
+Package: zimbra-modern-ui
+Version: 2.0.1.1581597908-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 38569
+Depends: zimbra-network-store (>= 8.8.15)
+Replaces: zimbra-store
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-modern-ui/zimbra-modern-ui_2.0.1.1581597908-1.u18_amd64.deb
+Size: 7143360
+SHA256: 1bbc33a1c163d32e541539ba1cdadb6ba033a0517746c4e313170f69542d736f
+SHA1: 3e36e8d424ba57943b4a99089e84633632f9457d
+MD5sum: 0d6b403930a623922772489700142cf6
+Description: Zimbra X Web
+
+Package: zimbra-modern-zimlets
+Version: 3.2.0.1585823037-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 9
+Depends: zimbra-network-store (>= 8.8.15), zimbra-zimlet-restore-contacts (>= 3.0.0), zimbra-zimlet-install-pwa (>= 2.0.0), zimbra-zimlet-calendar-subscription (>= 2.0.0), zimbra-zimlet-set-default-client (>= 2.0.0)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-modern-zimlets/zimbra-modern-zimlets_3.2.0.1585823037-1.u18_amd64.deb
+Size: 1244
+SHA256: cdfbca1345a11c591b9b028b6b273f95683ee6bf144f739ba4209777b756b5e6
+SHA1: a421304d2b75a147d153bcfe1dd9327d33fe63f9
+MD5sum: 903356773713fcc1822eee2dda62be38
+Description: Wrapper package for installing all zimbra modern zimlets
+
+Package: zimbra-modern-zimlets
+Version: 2.0.1.1581597908-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 9
+Depends: zimbra-network-store (>= 8.8.15), zimbra-zimlet-restore-contacts (>= 2.0.0), zimbra-zimlet-install-pwa (>= 2.0.0), zimbra-zimlet-calendar-subscription (>= 1.0.0), zimbra-zimlet-set-default-client (>= 1.0.0)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-modern-zimlets/zimbra-modern-zimlets_2.0.1.1581597908-1.u18_amd64.deb
+Size: 1244
+SHA256: 1d97b43d0d3155b70441683dbd9b0bc12d701317a357d1e94a1cb2c80a8eba50
+SHA1: 2639662d9bb62a9508205a621e0629627a280a95
+MD5sum: 5bdc6ada5d352d1b7d3bf5f0d3603602
+Description: Wrapper package for installing all zimbra modern zimlets
+
+Package: zimbra-network-modules-ng
+Version: 7.0.0.1585628572-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 65600
+Depends: zimbra-network-store (>= 9.0.0)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-network-modules-ng/zimbra-network-modules-ng_7.0.0.1585628572-1.u18_amd64.deb
+Size: 56804536
+SHA256: c6bae02b3fccc02389b5181803a5d93dac80cce7ba2edb53a34bc2d4a9f9f4b4
+SHA1: ddbebf1461ce81430dc327f24e50d84eb690053d
+MD5sum: 9ef3a577d97a4812731ad5f70141769c
+Description: Zimbra Network Modules New Generation
+
+Package: zimbra-network-modules-ng
+Version: 7.0.0.1580835120-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 65385
+Depends: zimbra-network-store (>= 9.0.0)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-network-modules-ng/zimbra-network-modules-ng_7.0.0.1580835120-1.u18_amd64.deb
+Size: 56635260
+SHA256: 6172ee63f0f5acccf34ab0d58ce834480fa5a56af5f73024dadb4ef81ab1928e
+SHA1: 8b0967265e13e9a44aa3443f872f05335e80a788
+MD5sum: ba9647c7a7e0482868e7c16135439ab2
+Description: Zimbra Network Modules New Generation
+
+Package: zimbra-patch
+Version: 9.0.0.1586024600.p0-2.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 253
+Depends: zimbra-store (>= 9.0.0)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-patch/zimbra-patch_9.0.0.1586024600.p0-2.u18_amd64.deb
+Size: 37528
+SHA256: f7ff36723110055a4d1b0b8eb269f41d4957fceced0fb66f06fef5824601a059
+SHA1: 69942f00380edd1aa30f5c4a8d4af467f6bb17f6
+MD5sum: 956b4655f96895ef2f42b588480fdd95
+Description: Zimbra Network Patch
+
+Package: zimbra-patch
+Version: 9.0.0.1581424173.p0-2.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 9
+Depends: zimbra-store (>= 9.0.0)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-patch/zimbra-patch_9.0.0.1581424173.p0-2.u18_amd64.deb
+Size: 1200
+SHA256: 43aab036b235e873484923a175eed3def5510fedbd577b3381b45fec0c9f5638
+SHA1: 13319628e00d08309b0fca7db90f13d70e599953
+MD5sum: b78c496508d6345d9038b3bcde88828a
+Description: Zimbra Network Patch
+
+Package: zimbra-talk
+Version: 4.0.2.1554992028-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 8347
+Depends: zimbra-network-modules-ng (>= 5.0.1)
+Conflicts: zimbra-chat
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-talk/zimbra-talk_4.0.2.1554992028-1.u18_amd64.deb
+Size: 8356084
+SHA256: bdf2c1f7e57584f7179951decdeb305a4cbfca73e0248e67ee1bf0972d5514ab
+SHA1: 723948bed49e89596daff4bf04f36a7816060f3a
+MD5sum: c2bb0709480a62e095985952645cbb64
+Description: Zimbra Talk
+
+Package: zimbra-zimlet-calendar-subscription
+Version: 2.0.0.1584361474-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 52
+Depends: zimbra-network-store (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-zimlet-calendar-subscription/zimbra-zimlet-calendar-subscription_2.0.0.1584361474-1.u18_amd64.deb
+Size: 42572
+SHA256: 6610e50cdca12ac6f5b88f11e7c147ff13543a0a692193faab284c11a3a5afb0
+SHA1: 955eaff11f704125a1812fd897d3b4a8c2d505c4
+MD5sum: 7405841b7b3b9c1b508d1ed35646bf09
+Description: PKG_DESC
+
+Package: zimbra-zimlet-calendar-subscription
+Version: 1.0.0.1581421327-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 52
+Depends: zimbra-network-store (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-zimlet-calendar-subscription/zimbra-zimlet-calendar-subscription_1.0.0.1581421327-1.u18_amd64.deb
+Size: 42544
+SHA256: a0217509dd7ca7c438e024f6e2298fb6b2865c475ebd09da20bd0682725b7d39
+SHA1: 44daf46b266e295eb6bef843ad8f04e7d0b05945
+MD5sum: af9c6ec74f12048b10a9a719d7efb585
+Description: PKG_DESC
+
+Package: zimbra-zimlet-date
+Version: 2.0.0.1581420391-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 93
+Depends: zimbra-network-store (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-zimlet-date/zimbra-zimlet-date_2.0.0.1581420391-1.u18_amd64.deb
+Size: 85012
+SHA256: 17e365abcdbec2a55c445b0d4081cb9dea02cac0db400301431b49ee09444a11
+SHA1: d7a2b5660c10b23e86c5c63bde1d3524ab644c94
+MD5sum: 3229f7151b6faa4b18139be777fdedde
+Description: PKG_DESC
+
+Package: zimbra-zimlet-date
+Version: 2.0.0.1581420391-1.u14
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 118
+Depends: zimbra-network-store (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-zimlet-date/zimbra-zimlet-date_2.0.0.1581420391-1.u14_amd64.deb
+Size: 84956
+SHA256: defe971dd8de84218d241c160d7eac3ab57306bc425cc476def88fbe3fb19f55
+SHA1: 85e86aac7e3042db60508cb8ee41fa4341991aa6
+MD5sum: 128deec5aa863fc3eaaa8b5eab8c8887
+Description: PKG_DESC
+
+Package: zimbra-zimlet-dropbox
+Version: 2.0.3.1584736933-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 295
+Depends: zimbra-network-store (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-zimlet-dropbox/zimbra-zimlet-dropbox_2.0.3.1584736933-1.u18_amd64.deb
+Size: 292032
+SHA256: 5f930db3f61378aeeac46b24ea68f8a42f70642d3f6c88e7c5936349979e8ac5
+SHA1: 6a40ef4647c4066de07b47e55aaa459d7c903930
+MD5sum: be2aaefdcf1f722f599788dd0ab2571b
+Description: Zimlet
+
+Package: zimbra-zimlet-duplicate-contacts
+Version: 2.0.0.1581420675-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 102
+Depends: zimbra-network-store (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-zimlet-duplicate-contacts/zimbra-zimlet-duplicate-contacts_2.0.0.1581420675-1.u18_amd64.deb
+Size: 93892
+SHA256: 1bc2ca5ab69948e0549d379937230e55f2717682d98a71fd6a31b8b6d849cd8a
+SHA1: e41b1d4a73e795d0fc0244764836ab5ae81cebe1
+MD5sum: 67f846384314838676785259f6721c80
+Description: PKG_DESC
+
+Package: zimbra-zimlet-google-drive
+Version: 2.0.2.1584741705-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 90
+Depends: zimbra-network-store (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-zimlet-google-drive/zimbra-zimlet-google-drive_2.0.2.1584741705-1.u18_amd64.deb
+Size: 82116
+SHA256: 0e9fef15b907e70e54d12b39fcf53219747c554cc64933bba0fed045c088f9a1
+SHA1: 092824c6645b87c5d96743143eeff952f32d52b0
+MD5sum: eb0ec636cc24859dc82f579160babc68
+Description: Zimlet
+
+Package: zimbra-zimlet-install-pwa
+Version: 3.0.0.1584721029-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 33
+Depends: zimbra-network-store (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-zimlet-install-pwa/zimbra-zimlet-install-pwa_3.0.0.1584721029-1.u18_amd64.deb
+Size: 22388
+SHA256: 6299c9f4fcdd52811c2b008ac87bd011dd7b2662fa9cb49fe4067b375b3c4b51
+SHA1: b32e7dee29e7057207324559b59fad1aa173918d
+MD5sum: 08e659fd9391f8d2f403c2bf2629b398
+Description: Zimlet
+
+Package: zimbra-zimlet-install-pwa
+Version: 2.0.0.1581417122-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 33
+Depends: zimbra-network-store (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-zimlet-install-pwa/zimbra-zimlet-install-pwa_2.0.0.1581417122-1.u18_amd64.deb
+Size: 22412
+SHA256: 6d0551d44df388b5a9b16b960213dc9296747dbb70eddf1d06652ea99bf42971
+SHA1: 2aede18f8399fe51f642b724c48b2a9fb7d6c584
+MD5sum: e3079ff9f73e3f0bc3e6a63e63bc4232
+Description: PKG_DESC
+
+Package: zimbra-zimlet-onedrive
+Version: 2.0.2.1584736976-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 88
+Depends: zimbra-network-store (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-zimlet-onedrive/zimbra-zimlet-onedrive_2.0.2.1584736976-1.u18_amd64.deb
+Size: 79688
+SHA256: 9483fff9d40c228fd0f6a19b19e690ef4204a72db5136b1e7e08878ccf9ebcdf
+SHA1: 8a9778988c18a99c0b7ebea2eecbff7177be4190
+MD5sum: 77cc402db032dca7be567c9519b586da
+Description: Zimlet
+
+Package: zimbra-zimlet-restore-contacts
+Version: 3.0.0.1584361501-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 46
+Depends: zimbra-network-store (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-zimlet-restore-contacts/zimbra-zimlet-restore-contacts_3.0.0.1584361501-1.u18_amd64.deb
+Size: 36284
+SHA256: fba8dfa1bbd5ffe3ad30cb25ba6104eacc45873091bd48051a434c4a1d82a8e4
+SHA1: 70393da486a7f88d6cc5b0cec3d430580c468c0d
+MD5sum: a456d992ce7cd6a210f6a70c741448bb
+Description: PKG_DESC
+
+Package: zimbra-zimlet-restore-contacts
+Version: 2.0.0.1581417249-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 46
+Depends: zimbra-network-store (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-zimlet-restore-contacts/zimbra-zimlet-restore-contacts_2.0.0.1581417249-1.u18_amd64.deb
+Size: 36228
+SHA256: 46ce24beeb83f6a0ed6fcd64f9ee96c4ba7a04c8e798c7f2c5c8743824bb3a0f
+SHA1: bbb8243974f1c39b4bae4df47315e06e9d577f50
+MD5sum: 3fe268ecbced446b6504d2c19c11e3bf
+Description: PKG_DESC
+
+Package: zimbra-zimlet-set-default-client
+Version: 2.0.0.1584361488-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 38
+Depends: zimbra-network-store (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-zimlet-set-default-client/zimbra-zimlet-set-default-client_2.0.0.1584361488-1.u18_amd64.deb
+Size: 27512
+SHA256: 06f6bdc4709372101728829918d30e2694a38ccea846c2ef3d2412f403ee7835
+SHA1: 9bea5bbb5a9f6ad0acb3fb5f71b0e55ca16684a9
+MD5sum: 6895eafdf2f601c3c168861b7b748a00
+Description: PKG_DESC
+
+Package: zimbra-zimlet-set-default-client
+Version: 1.0.0.1581422042-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 37
+Depends: zimbra-network-store (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-zimlet-set-default-client/zimbra-zimlet-set-default-client_1.0.0.1581422042-1.u18_amd64.deb
+Size: 26960
+SHA256: b7a2e2f4840b894a5da06264d99fa456b985224e5d435f5b1d88aac64e58d2aa
+SHA1: aeec39ffb61ba670113e45339d0e5790dcdad19d
+MD5sum: 7a9cd2239ff41f0e8edc788da7a06da4
+Description: PKG_DESC
+
+Package: zimbra-zimlet-sideloader
+Version: 3.0.0.1585317855-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 63
+Depends: zimbra-network-store (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-zimlet-sideloader/zimbra-zimlet-sideloader_3.0.0.1585317855-1.u18_amd64.deb
+Size: 53732
+SHA256: ce8faafdfe0ada852f8b6bc6b4992dc523b43695e92b5a3b76d71b5d7c0006cb
+SHA1: 822a513cdda2931926b16a5ca6e1d6c7f568d30e
+MD5sum: 221608fa4eebb1c72f302156dd92aabc
+Description: Zimlet
+
+Package: zimbra-zimlet-slack
+Version: 2.0.5.1584736997-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 259
+Depends: zimbra-network-store (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-zimlet-slack/zimbra-zimlet-slack_2.0.5.1584736997-1.u18_amd64.deb
+Size: 255108
+SHA256: 44b8f20c01740afc8f87ff51c688d3194b87bb58d7077fb7f3bd1c0bcfd5294c
+SHA1: 1cf2a6a0c8f355b56845c44302361f0f8eb4f13d
+MD5sum: df48802f000070565efeb47587155a0a
+Description: Zimlet
+
+Package: zimbra-zimlet-zoom
+Version: 2.0.4.1584737014-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 86
+Depends: zimbra-network-store (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-zimlet-zoom/zimbra-zimlet-zoom_2.0.4.1584737014-1.u18_amd64.deb
+Size: 77712
+SHA256: b59397f1463794d07f0e7e9730faee39ec46ff1ad1af5f05db9093ce01172908
+SHA1: 617808bc8270e0daaa2426bdf1f978f7af398ec1
+MD5sum: bb1a5a36f99c6554dc39f6c788cc05f3
+Description: Zimlet
+

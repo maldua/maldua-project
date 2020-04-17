@@ -1,0 +1,1191 @@
+Package: zimbra-apache-components
+Version: 2.0.0-1zimbra8.8b1.18.04
+Architecture: all
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 8
+Depends: zimbra-apache-base, zimbra-httpd (>= 2.4.38-1zimbra8.7b1.18.04), zimbra-php (>= 7.3.1-1zimbra8.7b3.18.04)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-apache-components/zimbra-apache-components_2.0.0-1zimbra8.8b1.18.04_all.deb
+Size: 1604
+SHA256: a88768b6f3994891bb75dfc2870cb30edabf849e9bdb9a009ae1ab50df8dcd62
+SHA1: 9d35bbc1034aabda3350ce4287037714a77c5460
+MD5sum: 8dea78ee3e239709ba613f16eabbbe1b
+Description: Zimbra components for apache package
+ Zimbra apache components pulls in all the packages used by
+ zimbra-apache
+
+Package: zimbra-chat
+Version: 4.0.0.1578499186-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 13932
+Depends: zimbra-store (>= 9.0.0)
+Conflicts: zimbra-talk
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-chat/zimbra-chat_4.0.0.1578499186-1.u18_amd64.deb
+Size: 12901136
+SHA256: 3191f2551c07e89896e28894281587dcf9e2563263ef6c9c8b88e58e7ec865b0
+SHA1: 51bfca022940b01b142d917883aea47f6c59b477
+MD5sum: 74d01e32c0acbc65d7d6407ff4190bf6
+Description: Zimbra Chat Extensions
+
+Package: zimbra-chat
+Version: 2.0.3.1559648872-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 14396
+Depends: zimbra-store (>= 8.8.9)
+Conflicts: zimbra-talk
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-chat/zimbra-chat_2.0.3.1559648872-1.u18_amd64.deb
+Size: 12449592
+SHA256: 88e47a951b7d6cbc4b42054746f1c732d7244875e9ed7eb908137ba008c827e4
+SHA1: 47c982d47aaecfd99cf3e5276e821e13d1d2ba76
+MD5sum: 7d3f2ff470e2d41d768b6b9d61513536
+Description: Zimbra Chat Extensions
+
+Package: zimbra-chat
+Version: 2.0.2.1578499186-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 13932
+Depends: zimbra-store (>= 8.8.9)
+Conflicts: zimbra-talk
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-chat/zimbra-chat_2.0.2.1578499186-1.u18_amd64.deb
+Size: 12901140
+SHA256: 5ca4440e68e67e3b259f499259911190eec1409ebe79ae6f3e0baa2f5a95a754
+SHA1: aaa84dd311168c21eff64da34ebc31b13b0edc26
+MD5sum: b01c7c2d6433b8b46725b146f0862b6d
+Description: Zimbra Chat Extensions
+
+Package: zimbra-clamav
+Version: 0.102.2-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 2018
+Depends: libc6 (>= 2.23), libcurl4 (>= 7.18.2), libncurses5 (>= 6), libtinfo5 (>= 6), zimbra-openssl-lib (>= 1.0.2l-1zimbra8.7b1), zlib1g (>= 1:1.2.3.3), zimbra-clamav-lib (= 0.102.2-1zimbra8.8b1.18.04)
+Homepage: http://www.clamav.net/
+Priority: optional
+Section: utils
+Filename: pool/zimbra/z/zimbra-clamav/zimbra-clamav_0.102.2-1zimbra8.8b1.18.04_amd64.deb
+Size: 321344
+SHA256: 839752deb5bd0eace6ddb6c14e1193de5c2866ece36cb95fac1bb2b0250d1a33
+SHA1: 67489777df114d75b55118778bec54cdfd877073
+MD5sum: cad75d4d32702dc8155e98d56a508e8c
+Description: ClamAV Binaries
+
+Package: zimbra-clamav-dbg
+Source: zimbra-clamav
+Version: 0.102.2-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 1386
+Depends: zimbra-clamav (= 0.102.2-1zimbra8.8b1.18.04)
+Multi-Arch: same
+Homepage: http://www.clamav.net/
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-clamav/zimbra-clamav-dbg_0.102.2-1zimbra8.8b1.18.04_amd64.deb
+Size: 1204484
+SHA256: 32e828155041c411467adaf0d40ebd54c25827fc3edf4a44ba603489e9ebd9ff
+SHA1: d895789ac88cd8d0c0820a46636b2eb9ab64e78a
+MD5sum: b035941501ec96271de9ead7656a4e4e
+Description: ClamAV binary debug information
+Build-Ids: 1fc8dc090590ebaba45356df7c21269f93974d9e 23543783d2387bd98f5d4c1cfdf3bef936229524 332fdb081ae97528cc662bcb22564b7018906378 40538b0582446a8745a5e0c1e7fc3d1d58daea5f 4863b03ae6d6cfe44c951f15bd60072a784a9705 62e72ec5a1a3468e3bd3c1ef2a8faf78e6514160 8a6446e6c5a742ec45646d25ad354b4a766a9abb cbd06bcd5dc67665e924b9a7c13d0cd6a7e325da ee9e2bc9e9b116a0ff204d19798396786e41a76f f600b33df424fb3660efa93a0cfbf807aa7cf299
+
+Package: zimbra-clamav-dev
+Source: zimbra-clamav
+Version: 0.102.2-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 103
+Depends: zimbra-clamav-lib (= 0.102.2-1zimbra8.8b1.18.04)
+Multi-Arch: same
+Homepage: http://www.clamav.net/
+Priority: optional
+Section: libdevel
+Filename: pool/zimbra/z/zimbra-clamav/zimbra-clamav-dev_0.102.2-1zimbra8.8b1.18.04_amd64.deb
+Size: 16808
+SHA256: 3a354135222b7803e8fc8e1061070dd4ca4408ee563760f3ef8cb622b3bc0498
+SHA1: c7047e8eae6971fd7c8596056e0cff2a801b2ad0
+MD5sum: cd9381970ce15f45c7fc8868edc077ab
+Description: ClamAV development pieces
+
+Package: zimbra-clamav-lib
+Source: zimbra-clamav
+Version: 0.102.2-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 2496
+Depends: libbz2-1.0, libc6 (>= 2.15), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.0), libpcre3, libstdc++6 (>= 5), zimbra-libxml2-lib (>= 2.9.4-1zimbra8.7b1), zimbra-openssl-lib (>= 1.0.2l-1zimbra8.7b1), zlib1g (>= 1:1.2.3.4), zimbra-mta-base
+Multi-Arch: same
+Homepage: http://www.clamav.net/
+Priority: important
+Section: libs
+Filename: pool/zimbra/z/zimbra-clamav/zimbra-clamav-lib_0.102.2-1zimbra8.8b1.18.04_amd64.deb
+Size: 878952
+SHA256: ab1ff3af04500ddef513120a1609ccd606d99bb5c70a1add87fc789c8e09b015
+SHA1: 32a7b61e1dbd1f96a0279422183e61cbf54d2ff8
+MD5sum: 1055c8a0c870b0bdae2994cc446a9a6a
+Description: ClamAV Libraries
+
+Package: zimbra-clamav-lib-dbg
+Source: zimbra-clamav
+Version: 0.102.2-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 3139
+Depends: zimbra-clamav-lib (= 0.102.2-1zimbra8.8b1.18.04)
+Multi-Arch: same
+Homepage: http://www.clamav.net/
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-clamav/zimbra-clamav-lib-dbg_0.102.2-1zimbra8.8b1.18.04_amd64.deb
+Size: 2959388
+SHA256: 532648a4eb4a929fef12d3530de4d8914359bbd9d37758858ce4fb6aa39e3ae0
+SHA1: 6e77015f4a137ed1b574c55944bf0491dc9de65b
+MD5sum: 726f14c00df6258ff45dcc4c1d756623
+Description: Debug information for ClamAV libraries
+Build-Ids: 169b8737d49fba1500c22e0da02eab237c227999 2c7e6704cb261e9d9171f9dda95f6ae9bccbe8dc 5c1724170f374ffdbd0e0b5368f9f48e998cd8f7 992265ca165868fb09814a1c3f45381af8cf3fc6 b51a8fa1476a0df456e9ea3ba1a0c03f7296ba0d
+
+Package: zimbra-core-components
+Version: 2.0.3-1zimbra8.8b1.18.04
+Architecture: all
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 8
+Depends: zimbra-base, zimbra-os-requirements, zimbra-perl, zimbra-pflogsumm, zimbra-openssl (>= 1.0.2t-1zimbra8.7b2.18.04), zimbra-curl, zimbra-cyrus-sasl, zimbra-rsync, zimbra-mariadb-lib (>= 10.1.25-1zimbra8.7b1.18.04), zimbra-openldap-client, zimbra-prepflog, zimbra-tcmalloc-lib, zimbra-perl-innotop, zimbra-openjdk (>= 13.0.1-1zimbra8.8b1.18.04), zimbra-openjdk-cacerts, zimbra-osl (>= 2.0.0-1zimbra9.0b1.18.04), zimbra-amavis-logwatch, zimbra-postfix-logwatch, zimbra-rrdtool
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-core-components/zimbra-core-components_2.0.3-1zimbra8.8b1.18.04_all.deb
+Size: 1816
+SHA256: 17ef1ddaa277d81c316a4130eded60da2b92c20db8c23299262016cd21c578ac
+SHA1: 571452631872ea29ad5f33d528727df49754c55e
+MD5sum: bf56e7bb38f170e748536ea822c90cad
+Description: Zimbra components for core package
+ Zimbra core components pulls in all the packages used by
+ zimbra-core
+
+Package: zimbra-core-components
+Version: 2.0.1-1zimbra8.8b1.18.04
+Architecture: all
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 8
+Depends: zimbra-base, zimbra-os-requirements, zimbra-perl, zimbra-pflogsumm, zimbra-openssl (>= 1.0.2l-1zimbra8.7b1.18.04), zimbra-curl, zimbra-cyrus-sasl, zimbra-rsync, zimbra-mariadb-lib (>= 10.1.25-1zimbra8.7b1.18.04), zimbra-openldap-client, zimbra-prepflog, zimbra-tcmalloc-lib, zimbra-perl-innotop, zimbra-openjdk (>= 13.0.1-1zimbra8.8b1.18.04), zimbra-openjdk-cacerts, zimbra-osl, zimbra-amavis-logwatch, zimbra-postfix-logwatch, zimbra-rrdtool
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-core-components/zimbra-core-components_2.0.1-1zimbra8.8b1.18.04_all.deb
+Size: 1760
+SHA256: 6c3528934acc3aa250e50402b6d100464543c5cbb51fc85c9f5d42d7de50ee07
+SHA1: 8fc9461e443512dd085a3331a807bef60be9f626
+MD5sum: dde67dde314fff6e1db137036e033486
+Description: Zimbra components for core package
+ Zimbra core components pulls in all the packages used by
+ zimbra-core
+
+Package: zimbra-drive
+Version: 1.0.13.1576152256-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 3365
+Depends: zimbra-store
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-drive/zimbra-drive_1.0.13.1576152256-1.u18_amd64.deb
+Size: 1230412
+SHA256: 48d10bcfed520a17f822db4358131f8e2d293a389ed5fafa6b055525522821f5
+SHA1: 82c808ca71ab8404632a37d8e4c9e66a279474ab
+MD5sum: eeb87e56bf773e7ebd9034810fcecc45
+Description: Zimbra Drive Extensions
+
+Package: zimbra-httpd
+Version: 2.4.38-1zimbra8.7b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 26253
+Depends: libc6 (>= 2.14), libpcre3, zimbra-apr-lib (>= 1.5.2-1zimbra8.7b1), zimbra-apr-util-lib (>= 1.5.4-1zimbra8.7b1), zlib1g (>= 1:1.1.4), zimbra-apache-base
+Homepage: http://httpd.apache.org
+Priority: optional
+Section: utils
+Filename: pool/zimbra/z/zimbra-httpd/zimbra-httpd_2.4.38-1zimbra8.7b1.18.04_amd64.deb
+Size: 4771640
+SHA256: 73f8f017d516e36c5a509c1462b318cc0b1264f1c4ef07e03a806b4e5e6f09c0
+SHA1: d67cc869441610218d8a8a065b9b2d74eb0c374c
+MD5sum: 30a9e32d9645316d516499b8f1ccdc92
+Description: Apache HTTPD Binaries
+
+Package: zimbra-httpd
+Version: 2.4.20-1zimbra8.7b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 24570
+Depends: libc6 (>= 2.14), libpcre3, zimbra-apr-lib (>= 1.5.2-1zimbra8.7b1), zimbra-apr-util-lib (>= 1.5.4-1zimbra8.7b1), zlib1g (>= 1:1.1.4), zimbra-apache-base
+Homepage: http://httpd.apache.org
+Priority: optional
+Section: utils
+Filename: pool/zimbra/z/zimbra-httpd/zimbra-httpd_2.4.20-1zimbra8.7b1.18.04_amd64.deb
+Size: 4554524
+SHA256: 2d236f946f8343366df76765daaab4e05769e7ee29ed013eadd6dbfd8d4380b3
+SHA1: 324cfde70a77a21333872f6cc6020fc36e690ce8
+MD5sum: 5f2ab653b21a84feabef55583c5598e8
+Description: Apache HTTPD Binaries
+
+Package: zimbra-httpd-dbg
+Source: zimbra-httpd
+Version: 2.4.38-1zimbra8.7b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 4028
+Depends: zimbra-httpd (= 2.4.38-1zimbra8.7b1.18.04)
+Multi-Arch: same
+Homepage: http://httpd.apache.org
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-httpd/zimbra-httpd-dbg_2.4.38-1zimbra8.7b1.18.04_amd64.deb
+Size: 3145548
+SHA256: 606b2b405e0c09dc47fa7bf3f408fd7e74e98e9d1af35b1a9ba623af0d1dfabe
+SHA1: bde971014a3592df2b6cc8e57ebbbcd36cb7a97d
+MD5sum: d454a3a17eb3903e4857847b229fae2f
+Description: Apache HTTPD binary debug information
+Build-Ids: 044c36d84505617e2f4ea0b496b4d28d2a576399 0a7fe8f5e65eaf991231f097f75564863e59b56b 0fe5973b1fec728884f09d5ca4c72cb31d8a2d10 12a98b2fd39244f002a81d5e0db3e434156ba9d9 1796b72112d9760ba6de4f77fe3447f0ce764897 1a68823269400c44ba3a55c21de221da9d3f4588 1dfd9b4951d9ee39924f50570024a7b302227494 208fa4337c7a7fc66eeb40723508c028eaafeeeb 2383b01dce87b9ceb5026da5fb2934b58c200da1 23ec2e602a57cb15476ed530a5d3d891aafb5b21 28d2047b68a61eda5f97202e6934f60012371d84 29f9d5ce8cee57199725d8ed2999c1a50c9303c8 2a78ec90600e2b25f929eb6b4131fc9974be0ae3 2bb5b784563c884af10a3b2f1fd631381cfbba04 2c225ff23637ab395d562862448e35d7a4ac416b 2e55a81d77710a015f825e44ba4bca244924cc45 311e4fd664cebfe99fb46c560d8a3ac2729998c5 31ee41148d2b4c4b17d349d0638f4e620b6da31e 33402c6f796cb227e151911870123f0c170bfc11 34019f453914206618b010032d0dd69594de738c 3656313d33e72163455303d579444aeb98459e74 379b666563bc630cc7dc7c784bba518e2937478b 383c0ab02509a8b5c302d6c35e0f739bd8bf6570 3bb74d12710222186e6e087670c3600c801207aa 3d2df90f7ed5f36343bc2292fc97cf473fb27020 3e985ae89e6ad5d9b1cc4db1acf01803fc4b1248 40d433a5a3ced185042add813dde6ea42d72fba5 43e6083cbf7d90a9f361633807ad5063ce96db05 46ccb20fff30f835ad67475f29b1bc05a7547736 47cf9d46ac5dce45f3aa7582ca4bf277254f5cd5 49a883af02f17d7495357de6e8d503950ca078c3 49ad98f89777cd52df4457fd7d0b69494732c5e7 4c95bf564c21d1a3abbe6f80c0fcc6fa09b304ae 4f434e2da6f461a0f19b50d8133713a115bd35e6 5acd905bc6edf25eb0a3139637bb954e794c87b0 5bf8177c37fa07cb76cbc46df4a7f82e8dc9e51c 5c120305134e500a535d326aca840717c07d3a2a 61e4b4aa8ffefb5523250dbd579baecfaa4085bc 66aa8f4597e6f196d3350a770a6df730e78a1b51 6f181b1c08910156f235234eb97b51163563060b 6f7dc873a1c03c11f759569ff4d5f79b00a13637 71f2ac03f5e9083cdac080b7c1a604df4c452600 731af49334e38f12d02eebdc9322efbd154accf7 748a6aaaf0c281ef0bb3698920699cd68da4a353 772057f20e8f5bbe1dda8afeb77d9e1bcca51b05 78637593a920f71f166c70fd5f4528048f222fda 79c7216414e0d643132aa0e109ede6c4533067f6 805aa58c0299994d000524d63116c526631a30a7 8181d93497664c1f133664821dfe72896f9e01cd 86a173446ea95c3674951a5ae6833fcf5677111c 8789f6680aab1406669424d687f36a53747731ab 88a91990c88bb6466bddbe0ea0a2a43de92d6c7d 89fd542a582a8cd2288430871361326a9208e71a 8b14b26f63c80c8dfa0003a991f1a63849de0541 8b4933e39f2e379632ad7a86cca7b515faf57685 8d31b6ee3a3b57d40d89df3896a0ac0875f6b2c7 8db1a4c1b922f25aa9ca719914bccd3a8c6c5d56 90b9766696363c0106a538fdc3ff58bd2aa1cf97 91547e90f05f68ded8a6eac27106c4b1affffc5b 965c1559df74a3c0941a3e9565b4a610a5ee49c7 970b21cae7251cd4113a52eaad147b8bebaa199d 9a510fdb2c4e793620cd3a8e631326f5448c4506 9c58d08288c2f3ae60b935f8d4fc71ae088d80c3 9e29eb4b56829008759842783baa34f46891c9f6 a0cdc5aa1978b2532ed987ba711780c37961c2db a60e150eb4bf2b8fc8e5428e4e9e23dfd1dc49fd b2a0b5b34747e5d0b73e711faefd00b9cc764f93 b4aef68fe28a029dfdb24315706c08aa37a0bc14 b4c279db2c99cfd276632723bd5e6045d85477b1 b4ff8e2c56681ad62b07d316cb49fc4f82c855af b686567cc667ffa891e7ca89bfae12304e52ee7c b738ba24c2f58a0d664549a179c7fe6ba6dc48a2 b7adfd6b1894ae97b436cfa7244c483f6670aa90 bbbe88111cbc578879037ae9ac321a1928617667 bd7e817b8ee412ba9a806dc7f87b4c248a66f202 bdd6556431f3c71814e47c918880c03d0b1de206 cc5cf0e19ceee7f82a2e9c9fd9f573a47ed2ab83 cfbbc4ac2cb8510e34ff04ef259d8d258cfdfa85 d226f5b3ac84c7da91e3ee8e6f9fd78b888d9cfc d890ced07a061403ff6d701ee98c06dd3cd6f481 d8cace8bcb3454b3a8d74421ac68519b33df3450 d8f378a1356feedfb804eac779a1dd8683c52157 d9cbb462c0e8cfee34cbd557f2edcdfa9831472d d9f07037c017a02db09945c322e5078438e66d8a dcc2d5e9320541fcfb8cc8281c5b0c8fdc890fc5 deb87de29adc10b94d2d10288c07a2e0a6208235 e139349de9e8774db39716b010847b08e8203421 e2b71d89edaa47cbc3fdaf162bf77f945158342e e3c221decc29d1218784ec4d0ae97a6341a7f1ed e4031fe8f538d3f83176a077353c0d14a8337878 e51d5dbf5d61a7a91ebe591b1c463c2a3b292cfa eb5d58e1cf62c07cc9098fc5e091c8dfc85b0783 ec8563c07a22223200d5f699cb995c7c4370b743 ed632681dde02a423c24520cfac6a2d005e4a71d eff9b56ac8dd4a41fe46a4149917a41b5c0087c3 f04b5ca3083ce54215bf82b577a85bbb0b1521a2 f3c97d687b67cae2e6bb5d22c7ab5e2d3eb44bc9 f4740b53657a034b44682457daf7d2aaa02ca995 f55e766ba0bbd9ae230acc9f169a57832a5b3751 f754d60035c3a2e9d8b6846c3d94854476ac886b fba709b120cacf50420d549350410fc00075fce8
+
+Package: zimbra-httpd-dbg
+Source: zimbra-httpd
+Version: 2.4.20-1zimbra8.7b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 3828
+Depends: zimbra-httpd (= 2.4.20-1zimbra8.7b1.18.04)
+Multi-Arch: same
+Homepage: http://httpd.apache.org
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-httpd/zimbra-httpd-dbg_2.4.20-1zimbra8.7b1.18.04_amd64.deb
+Size: 2989516
+SHA256: 2c55fa2a214342305a88410f5c54b7b9d1dbe6691cebf68ea6f4496074ad73d9
+SHA1: 773d54a4cad2a33d545a5a78a36fc57f4699ae2a
+MD5sum: 90eaf712c0a4d57cce267db85af0cc7d
+Description: Apache HTTPD binary debug information
+Build-Ids: 07e3451e6d23814b962cfbfda3ff0e7658685db6 090a81c4907fd9e2db746162754e1abc32e6606f 0a2a9e0ccaed21f5546934c91676cba75159588a 1071910db27b84b7438428310304e6e53540ecb3 10f59ae51f816f67db7f950f0e638d550dc54d7a 1382c5d2016853e6d4f54972f2eb46503ad51e05 153c32d8fdd4bdae540da1bee457bb434b2237ab 1a68823269400c44ba3a55c21de221da9d3f4588 1c164c7c51afbbe773fe980ae78748b5fae8487e 1d8d0f979ca5887f2f998dc4ca9f7f2260c7049d 2b8b551ceb5ce3038dac4ad70c1756b1563ccf70 2bc2b8cf6e41e8c0d589734cc65339b26e53b283 2e66cba0c84f377c548fdf867391ad40df68cc85 2fb424b4596b3a205c6655988b4915c721d28312 3082ded6f930ce2a33218274d290c5f83dbccfe1 3504280280cfc4526879864a1f4eb4256d19784d 3656313d33e72163455303d579444aeb98459e74 3709bbcd29053a5c21f7a7fac1fceeed60c560c5 38baf003d5f27592e9ee9ce3bc7f598012df7b24 4207d7d806868d8bf2149a79b9d1b30aa88afcef 44263a7a19d6c5e7a55451ecee4658f8f2b1cb7b 468df9c8c2cf1099069a12d14a47180a66fb9baa 4769811362b48444bce8eee66c6c9fb6726ad6e5 482369a7edaf5e115ee352472ee6b36c27c8c39e 4d344e57d9991afa930242cd19e94d5eb6362166 51b00f9bf63de0ba86b3ab900428d6e0b4d188b1 51daa964540da53abb8a936360183b3ecdecb6a5 524c1381f9071214ac409f193e13d99de3d67035 5409a18f83e1f332b0e873205102be7f78f1126c 5c120305134e500a535d326aca840717c07d3a2a 5d29ade8147d33cc85d0ca8757a2db3be7bcc4b1 5fe05c88cfd13f23e1fdbae32a67bb2406da3f30 652ddbaa72cd5d3b830dac07ef4c1af757a1a7a0 6c9f1cccc715abd0be6ab669e8d92980370afae4 6cb3e9b673ebc3dcb9c83742476a71e5a82ca6e3 6ebf77f6df8249045468562e2736e86ff25ad90c 6efa6593a243dcb58116b6c6af152c5f44129b3b 6f0818f68086fd54eed542d405ef57c62049e2e9 6f116872b6b07967efa447735acddd14b55c988d 6ff12b073629439295f31e2d020e2ff82bababe3 717e3accc4da202e25991a87da307ef098644423 7328360864ce112fd6530cb33d39773f5e446756 73a8df879ce0c4a648cd145bd92f5fdcd2842968 75f87116fea3cd2288331afa303849bd46e16170 7608d6beb48368496f05061a55dcfeb1baacacd4 8076dd3c148e1505ba780cf306e90e4dbddcd51e 843e18782bca68b6e69b5ab96ed529974b204ac6 845e95c2118f0da610912c9b6b10dc23aa309625 84c9a836bb8958cf35c9bb5a3d494be611afe184 861beb5b940b7eca4de09cbd53d3f88c08c1ea50 88272def6fbba37d0205d86f0dc6d8e6497006e1 8d8857e31b775180a329f6969320d6d840025431 8e97d1187985e7e2e9b20a0ed2cd2a0a0f1be70e 8f81d9c2e7afcd66a3f7353d0d13c1dd3c4abe82 8f908f0e7d326c61e34a44d3aa84dec2f45f705e 8fbe842f9f2cf7cd7ee52d14d616a1260c73d46e 9015724a1a919bc9de77a07b9982d82befaace9f 90dad1b133a43959648e30d076c21ab63e9c650d 93da77f787f5f9f9896ca12bfb711d5cc7228aca 96bed0e8a17ec4f40548198c9aa67d7d6e9294ba 9707f3e3bfce922dd4c73545a0ad988791ec2925 9741488ebe1e8b15b05f42521ceadead1b2abbc5 98c85dd1572d5adb06fbc061264b760ac256a56d 9b02b3c07320c0252d7441c1c709f077c8135b5b 9b3debd8456b6027bc30337fbd7827f182f66822 9bf70ee2c5ab6739b6bc34deaf446fe30447a5cc 9fbf194a00e55bf5d94933a4dc0b10f00c73c520 a211a2ebedf8f30066499acab551fa833927e7a7 a793c9d40062e419d3076ab3217b25a9318c59b4 a9eb046162effe638bfda79e97ac85eac85f9f31 aca98535726a4575a1dbc751b0e6dabe0af9e487 ae51556de4c1027d8d95f45ad2e5faedd3dfb797 b247387c425dd9c7613d95c63b912cac306c3f1b b2a0b5b34747e5d0b73e711faefd00b9cc764f93 b90efa7e869a1b766f08958ecbf1680d7bd22944 bf27cff1c9b4b6023546003ee0bd37837b1c1260 bff6d02191fd73c3acc31f5ec0c303b9f8a29f31 c01dfe73f7fa997b8b762cbcaae454d5b58587c2 c1577c9b12ffcc8428022b52bcd054d3579aaad3 c1dd98f4592e002af248a23669ab49f39e1cd94e c639c398d38d6f2381f4da5c7eb83a09c7dc76ba caf9c760db1047bfb84af17492186f1a77c08abe cdb457bf6a5916e626e7f8960a1ea120d4010109 d20c9b91f78231ca27334a3067e5488d2147d912 d99e178e9959803f7cdcf94370a029641d0f55a4 dbe4ae1ef8ec21820300fd91e17e49b09f3631c9 e5cb5a3c4f73c36fc094b59040d0386ccbb10e7f e70e9f7cdfb6d77a9e276a4f8ca3cdc3ac23adda e7210ebb2ad2ac7d3dba5f53655d17680c3dfd39 e75a6ecda292d53a4b903088993abc8f79753521 e8b3d8948fb60fc5600b542fea69493156ab59a9 e8df51de5403225a8963209f0e1b67486bbd2992 eb6c082739beeef29faeee3e1b50c5ccdff9fa3a ec2fa0d8bc5a426a4bf90a754cba597fd2c015f7 f5f36ec37d809a122931d0b7b4bb34d6755bed71 f824aeab8a172522a153e4724de4f0e0e49753e3 fdb90520d105e8355f8628566c495e0f7be95088
+
+Package: zimbra-httpd-dev
+Source: zimbra-httpd
+Version: 2.4.38-1zimbra8.7b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 1007
+Depends: zimbra-httpd (= 2.4.38-1zimbra8.7b1.18.04), zimbra-apr-dev, zimbra-apr-util-dev
+Multi-Arch: same
+Homepage: http://httpd.apache.org
+Priority: optional
+Section: libdevel
+Filename: pool/zimbra/z/zimbra-httpd/zimbra-httpd-dev_2.4.38-1zimbra8.7b1.18.04_amd64.deb
+Size: 175356
+SHA256: ca5f1f19a6c59c31ca6a47ab4a313803d61f6e037b801234cde9114b948dc711
+SHA1: 054fa194f9271f21a55ce8cded68f0ba0a83ea49
+MD5sum: b2f49e519fff2f86bd428f079026c16c
+Description: Apache HTTPD development pieces
+
+Package: zimbra-httpd-dev
+Source: zimbra-httpd
+Version: 2.4.20-1zimbra8.7b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 982
+Depends: zimbra-httpd (= 2.4.20-1zimbra8.7b1.18.04), zimbra-apr-dev, zimbra-apr-util-dev
+Multi-Arch: same
+Homepage: http://httpd.apache.org
+Priority: optional
+Section: libdevel
+Filename: pool/zimbra/z/zimbra-httpd/zimbra-httpd-dev_2.4.20-1zimbra8.7b1.18.04_amd64.deb
+Size: 170436
+SHA256: 21c6d008a2a16ae53c5cc024cc3a724b053da88b990c5f6caa742a4ba2826ea2
+SHA1: 38cc84e6faca48c0eba592e024ed503e4ed44f59
+MD5sum: d2bb6e5f51e54bae0e41b8f6f0ff9130
+Description: Apache HTTPD development pieces
+
+Package: zimbra-jetty-distribution
+Version: 9.4.18.v20190429-2.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 24320
+Depends: libc6 (>= 2.2.5), zimbra-store-base
+Homepage: https://www.eclipse.org/jetty
+Priority: optional
+Section: utils
+Filename: pool/zimbra/z/zimbra-jetty-distribution/zimbra-jetty-distribution_9.4.18.v20190429-2.u18_amd64.deb
+Size: 17364912
+SHA256: 7000f286b0e840c7a8c70bf003e86b563b49f1adbb814bb3908201fb5fa46a53
+SHA1: 9b4abad3b69cf98591cd036ec68f2057352cf720
+MD5sum: 6801a66c681749017a30bf6fe0175727
+Description: Zimbra's jetty-distribution
+
+Package: zimbra-ldap-components
+Version: 1.0.3-1zimbra8.8b1.18.04
+Architecture: all
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 8
+Depends: zimbra-ldap-base, zimbra-lmdb (>= 2.4.46-1zimbra8.7b3ZAPPEND), zimbra-openldap-server (>= 2.4.49-1zimbra8.8b1ZAPPEND)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-ldap-components/zimbra-ldap-components_1.0.3-1zimbra8.8b1.18.04_all.deb
+Size: 1692
+SHA256: 7c8ff7a8638238ceff42eb5e79b1941b1a1b11de491faee2789d1d77267106a0
+SHA1: 49af617016e62f85e343267063ab9b4c011aafe3
+MD5sum: 90d4f8ddcacbc170156aa5ea2ca19c22
+Description: Zimbra components for ldap package
+ Zimbra ldap components pulls in all the packages used by
+ zimbra-ldap
+
+Package: zimbra-libxml2
+Version: 2.9.4-1zimbra8.7b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 9
+Depends: zimbra-libxml2-lib (= 2.9.4-1zimbra8.7b1.18.04)
+Homepage: http://www.xmlsoft.org
+Priority: optional
+Section: utils
+Filename: pool/zimbra/z/zimbra-libxml2/zimbra-libxml2_2.9.4-1zimbra8.7b1.18.04_amd64.deb
+Size: 2268
+SHA256: 203f527865addad12a53cbeefec5a7f8b84a06c59ca56489ab9666878c916054
+SHA1: e9e89c95ab5d81461479c45bfdb489ea7d0cdc8c
+MD5sum: 9c2e0eab43fd7581720f732ec83628a5
+Description: LibXML2 Binaries
+
+Package: zimbra-libxml2-dbg
+Source: zimbra-libxml2
+Version: 2.9.4-1zimbra8.7b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 9
+Depends: zimbra-libxml2 (= 2.9.4-1zimbra8.7b1.18.04)
+Multi-Arch: same
+Homepage: http://www.xmlsoft.org
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-libxml2/zimbra-libxml2-dbg_2.9.4-1zimbra8.7b1.18.04_amd64.deb
+Size: 2308
+SHA256: 3937e2045df400499a8846edd144a4bcd48b2e30ef366a089ba39c70a898d27f
+SHA1: 1f3feb4cfe2513a2ce40a1c47f147e7de87063de
+MD5sum: b7f45d7e7e9e81e737d1f4277189ec21
+Description: LibXML2 binary debug information
+
+Package: zimbra-libxml2-dev
+Source: zimbra-libxml2
+Version: 2.9.4-1zimbra8.7b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 469
+Depends: zimbra-libxml2-lib (= 2.9.4-1zimbra8.7b1.18.04)
+Multi-Arch: same
+Homepage: http://www.xmlsoft.org
+Priority: optional
+Section: libdevel
+Filename: pool/zimbra/z/zimbra-libxml2/zimbra-libxml2-dev_2.9.4-1zimbra8.7b1.18.04_amd64.deb
+Size: 71620
+SHA256: 53b56897be5498f22989d699b33955c318341ec1f77df7af3a80bbed82492967
+SHA1: 3e1bf674fbf90a5b42790721adeb5819360241f2
+MD5sum: b2af398347dd025ca96deee7b7d2cd9b
+Description: LibXML2 development pieces
+
+Package: zimbra-libxml2-lib
+Source: zimbra-libxml2
+Version: 2.9.4-1zimbra8.7b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 1445
+Depends: libc6 (>= 2.15), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.3.3), zimbra-base
+Multi-Arch: same
+Homepage: http://www.xmlsoft.org
+Priority: important
+Section: libs
+Filename: pool/zimbra/z/zimbra-libxml2/zimbra-libxml2-lib_2.9.4-1zimbra8.7b1.18.04_amd64.deb
+Size: 531540
+SHA256: 6c8dbfd3c2033169c355d18e584d6efda95c8958c44459fb25edfa10ed80bffa
+SHA1: eb6ff6f49ab31ae79fb1b277fc67e739bd67c47a
+MD5sum: 9777f7f2629eeecbe50898bcbcf392b0
+Description: LibXML2 Libraries
+
+Package: zimbra-libxml2-lib-dbg
+Source: zimbra-libxml2
+Version: 2.9.4-1zimbra8.7b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 1870
+Depends: zimbra-libxml2-lib (= 2.9.4-1zimbra8.7b1.18.04)
+Multi-Arch: same
+Homepage: http://www.xmlsoft.org
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-libxml2/zimbra-libxml2-lib-dbg_2.9.4-1zimbra8.7b1.18.04_amd64.deb
+Size: 1678164
+SHA256: 112fc4788513bbffe7d0cb0a2509e24f7766e4806962f6c2549ab24db862daef
+SHA1: a4ac5e8242552f24bc3615de3281e324a362c5fc
+MD5sum: 209d98d1fb46cd098feca60addd72843
+Description: Debug information for LibXML2 libraries
+Build-Ids: 2291ebfed5b3c515081eb66b5a099aa7547a9ad5
+
+Package: zimbra-lmdb
+Source: zimbra-openldap
+Version: 2.4.49-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 372
+Depends: libc6 (>= 2.14), zimbra-ldap-base
+Homepage: http://www.openldap.org/
+Priority: optional
+Section: utils
+Filename: pool/zimbra/z/zimbra-openldap/zimbra-lmdb_2.4.49-1zimbra8.8b1.18.04_amd64.deb
+Size: 60204
+SHA256: de1668056be4bc04c39456f2b685c6cf6c811e7fdb0c7040d94de65b1bf65ad8
+SHA1: a6e2651d891099eed3beddaa46cc2b0f01f718d4
+MD5sum: f4442bfaf01331a6c44a06382d2e4af2
+Description: LMDB Binaries
+
+Package: zimbra-lmdb-dbg
+Source: zimbra-openldap
+Version: 2.4.49-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 412
+Depends: zimbra-lmdb (= 2.4.49-1zimbra8.8b1.18.04)
+Multi-Arch: same
+Homepage: http://www.openldap.org/
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-openldap/zimbra-lmdb-dbg_2.4.49-1zimbra8.8b1.18.04_amd64.deb
+Size: 346792
+SHA256: 065ba9c2f57ad0518adb75a9b82f309d9f2aa497d0b7a7542884eec5dc0cec43
+SHA1: 13152c2ba8b97c1194bb5dbf418d089726026843
+MD5sum: 9771551b3e9aacb6b3f939e8b0942b4f
+Description: LMDB binary debug information
+Build-Ids: 3b5738380f45437126a43762f4cf53dd41617677 60992ffc2603b96914e8befb4e9e855e8e937fa4 6551d89fbc591a5f1ad5d83178d91abfcb77079f fde4003cff8dffeffdc3e6cc9fbe61b5a142c541
+
+Package: zimbra-lmdb-dev
+Source: zimbra-openldap
+Version: 2.4.49-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 272
+Depends: zimbra-lmdb-lib (= 2.4.49-1zimbra8.8b1.18.04)
+Multi-Arch: same
+Homepage: http://www.openldap.org/
+Priority: optional
+Section: libdevel
+Filename: pool/zimbra/z/zimbra-openldap/zimbra-lmdb-dev_2.4.49-1zimbra8.8b1.18.04_amd64.deb
+Size: 67716
+SHA256: e42fa1cc3b3dd18866c5e977cf85d3c0a1eafb6a74eb30566b00b1e0ec7db1eb
+SHA1: 2538c97f12deb0692cf8fed4cb6c88562e5806cb
+MD5sum: 9488d5be8f560205dfad78c44bae78b3
+Description: LMDB development pieces
+
+Package: zimbra-lmdb-lib
+Source: zimbra-openldap
+Version: 2.4.49-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 183
+Depends: libc6 (>= 2.14), zimbra-base
+Multi-Arch: same
+Homepage: http://www.openldap.org/
+Priority: important
+Section: libs
+Filename: pool/zimbra/z/zimbra-openldap/zimbra-lmdb-lib_2.4.49-1zimbra8.8b1.18.04_amd64.deb
+Size: 43220
+SHA256: e4fd370cbdbcb999a75f843cdcfcdaf925567d47df3381c2dd1a3b35dcb3fe62
+SHA1: c3adcc8166e241a585c8b7413ebfc39c2e4e3949
+MD5sum: 0afa10a29f3932a710655a24bd80735e
+Description: LMDB Libraries
+
+Package: zimbra-lmdb-lib-dbg
+Source: zimbra-openldap
+Version: 2.4.49-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 107
+Depends: zimbra-lmdb-lib (= 2.4.49-1zimbra8.8b1.18.04)
+Multi-Arch: same
+Homepage: http://www.openldap.org/
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-openldap/zimbra-lmdb-lib-dbg_2.4.49-1zimbra8.8b1.18.04_amd64.deb
+Size: 86156
+SHA256: c11ced657553b0a955c0f7cd902001da97aca5ee3bf7cdf7756c011162dd462f
+SHA1: 0beb04e82702ca24b4bb3d7c93e773e1266b1572
+MD5sum: 4ac60d4eb633ab7c91c5d0af2975dde8
+Description: Debug information for LMDB libraries
+Build-Ids: 1a1546e9ebff52d8facf695639115fc0aa4593d7
+
+Package: zimbra-mta-components
+Version: 1.0.6-1zimbra8.8b1.18.04
+Architecture: all
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 8
+Depends: sqlite3, zimbra-mta-base, zimbra-altermime, zimbra-amavisd, zimbra-clamav (>= 0.102.2-1zimbra8.8b1.18.04), zimbra-clamav-db, zimbra-cluebringer, zimbra-mariadb (>= 10.1.25-1zimbra8.7b1.18.04), zimbra-opendkim, zimbra-perl-mail-spamassassin (>= 3.4.4-1zimbra8.8b1.18.04), zimbra-postfix, zimbra-spamassassin-rules
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-mta-components/zimbra-mta-components_1.0.6-1zimbra8.8b1.18.04_all.deb
+Size: 1876
+SHA256: bed772ea1a294294991a8a5a8a4291646d33fdd947459fd38e99f29561c8b8ee
+SHA1: 88a5e1a69462974c77d433ec9d5b271002c29569
+MD5sum: cc8a36563c5025c81057a1befbcc09b2
+Description: Zimbra components for MTA package
+ Zimbra mta components pulls in all the packages used by
+ zimbra-mta
+
+Package: zimbra-mta-patch
+Version: 9.0.0.1552427139.p0-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 9
+Depends: zimbra-mta (>= 9.0.0)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-mta-patch/zimbra-mta-patch_9.0.0.1552427139.p0-1.u18_amd64.deb
+Size: 1208
+SHA256: 56f3dd919c892cc130d57eccee6a7af345c514a1320f5f74eed7d195b22a592a
+SHA1: d4d4550402e08199eeeb64688ecedb2c3679cbd9
+MD5sum: 3fd12dba2cbe35a6df3c5f8bf4cd8a25
+Description: Zimbra MTA Patch
+
+Package: zimbra-nginx
+Version: 1.7.1-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 1404
+Depends: libc6 (>= 2.27), libpcre3, zimbra-cyrus-sasl-lib (>= 2.1.26-1zimbra8.7b1), zimbra-openssl-lib (>= 1.0.2t-1zimbra8.7b1), zlib1g (>= 1:1.2.0), zimbra-proxy-base
+Homepage: http://nginx.org
+Priority: optional
+Section: utils
+Filename: pool/zimbra/z/zimbra-nginx/zimbra-nginx_1.7.1-1zimbra8.8b1.18.04_amd64.deb
+Size: 336232
+SHA256: d8877d5caeec899f54115cb1bef5d84dfd067cafa500f225bb999a6400b4df7c
+SHA1: cc3150c7361411636b3c85d0903272df66251b47
+MD5sum: a92e7126ccf759b7e48c227d359c3787
+Description: nginx Binaries
+
+Package: zimbra-nginx
+Version: 1.7.1-1zimbra8.7b12.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 1400
+Depends: libc6 (>= 2.27), libpcre3, zimbra-cyrus-sasl-lib (>= 2.1.26-1zimbra8.7b1), zimbra-openssl-lib (>= 1.0.2l-1zimbra8.7b1), zlib1g (>= 1:1.2.0), zimbra-proxy-base
+Homepage: http://nginx.org
+Priority: optional
+Section: utils
+Filename: pool/zimbra/z/zimbra-nginx/zimbra-nginx_1.7.1-1zimbra8.7b12.18.04_amd64.deb
+Size: 335936
+SHA256: c292abd8f3a8b85a28484ae4497132a334e0686096871e3c39e20eb82f76d798
+SHA1: e7ed26b899ea230d66d8852bea23661c0a6bc535
+MD5sum: 710c60f47cbab271da3e3c76eb1876e8
+Description: nginx Binaries
+
+Package: zimbra-nginx-dbg
+Source: zimbra-nginx
+Version: 1.7.1-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 3031
+Multi-Arch: same
+Homepage: http://nginx.org
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-nginx/zimbra-nginx-dbg_1.7.1-1zimbra8.8b1.18.04_amd64.deb
+Size: 2841128
+SHA256: 6784c4474d4ae394870a441e19155c6ab7ae998194388294425c0f3370ce1e49
+SHA1: 95fe8e4dd3127c58b4a90897393ec2d25fe89f15
+MD5sum: e7f232b8369790e37f350f89007db4cd
+Description: nginx binary debug information
+Build-Ids: 27eee528536853a254cd51ec873d28927c629ff0
+
+Package: zimbra-nginx-dbg
+Source: zimbra-nginx
+Version: 1.7.1-1zimbra8.7b12.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 3333
+Multi-Arch: same
+Homepage: http://nginx.org
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-nginx/zimbra-nginx-dbg_1.7.1-1zimbra8.7b12.18.04_amd64.deb
+Size: 3158100
+SHA256: 3d686b7de6b5e70e79aa4e9a7ecfbbac82abc8c705c5160fc6df955c924ecddd
+SHA1: 6025d3263d30c6b4edd5b20533e8d88d3e0e0e7f
+MD5sum: a79e6b810aabc39e2b20abb367572a22
+Description: nginx binary debug information
+Build-Ids: 70a11a4336ebd54571baf6c61d7db03e290b5833
+
+Package: zimbra-nginx-dbg
+Source: zimbra-nginx
+Version: 1.7.1-1zimbra8.7b9.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 3333
+Multi-Arch: same
+Homepage: http://nginx.org
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-nginx/zimbra-nginx-dbg_1.7.1-1zimbra8.7b9.18.04_amd64.deb
+Size: 3152196
+SHA256: 30204f0013c17d6226299ddca81661cf43f6478cf4dde88e30d27f53ec7347b6
+SHA1: 361734f9b8b69e7a126ee470d5a97115fcc4f991
+MD5sum: 453b0838befad82d57fb4e7c4009e59b
+Description: nginx binary debug information
+Build-Ids: bc844bf87e249575f2a4b9e10d2e45d62d5a7115
+
+Package: zimbra-openjdk
+Version: 13.0.1-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 318218
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.7), libfreetype6 (>= 2.3.5), libx11-6, libxext6, libxi6, libxrender1, libxtst6, zlib1g (>= 1:1.1.4), zimbra-base
+Homepage: http://openjdk.java.net/
+Priority: optional
+Section: utils
+Filename: pool/zimbra/z/zimbra-openjdk/zimbra-openjdk_13.0.1-1zimbra8.8b1.18.04_amd64.deb
+Size: 169103872
+SHA256: eaa53c6d632df7b066d94a95fd8af6cbcd3147a5d218dc50d9179ed56fd07e5b
+SHA1: a663c98fac5e08a25f0142e0a22a804cd3ec8be1
+MD5sum: 81ddf723cd2d8ee238b88814b0671bbc
+Description: OpenJDK
+
+Package: zimbra-openjdk-dbg
+Source: zimbra-openjdk
+Version: 13.0.1-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 8
+Depends: zimbra-openjdk (= 13.0.1-1zimbra8.8b1.18.04)
+Multi-Arch: same
+Homepage: http://openjdk.java.net/
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-openjdk/zimbra-openjdk-dbg_13.0.1-1zimbra8.8b1.18.04_amd64.deb
+Size: 1612
+SHA256: ad93606863e57be9a04fdf243bb6ce6b3bda9e5864c0e422f41f20ba6dc1bd48
+SHA1: 738e5af2b5d2e61805cb069fd977947c2dfc2bc1
+MD5sum: 2136fc19a2b641021bc5f754537b126d
+Description: OpenJDK binary debug information
+
+Package: zimbra-openjdk-dbg
+Source: zimbra-openjdk
+Version: 11.0.2-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 8
+Depends: zimbra-openjdk (= 11.0.2-1zimbra8.8b1.18.04)
+Multi-Arch: same
+Homepage: http://openjdk.java.net/
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-openjdk/zimbra-openjdk-dbg_11.0.2-1zimbra8.8b1.18.04_amd64.deb
+Size: 1616
+SHA256: b74e924538319e9db6a84c07b995c760ca41979262ace6ec5dbd28d2966a4a15
+SHA1: ac02172024e5c79fa60c10021617fb463feb0478
+MD5sum: 7db51443301582ae538a68fbb99bc041
+Description: OpenJDK binary debug information
+
+Package: zimbra-openldap-client
+Source: zimbra-openldap
+Version: 2.4.49-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 755
+Depends: libc6 (>= 2.14), zimbra-cyrus-sasl-lib (>= 2.1.26-1zimbra8.7b1), zimbra-openldap-lib (= 2.4.49-1zimbra8.8b1.18.04)
+Homepage: http://www.openldap.org/
+Priority: optional
+Section: utils
+Filename: pool/zimbra/z/zimbra-openldap/zimbra-openldap-client_2.4.49-1zimbra8.8b1.18.04_amd64.deb
+Size: 107092
+SHA256: 6b3e00e649b3b7d5d57fd58a73acdc0a6e44f3d9713045772e9320453b350b44
+SHA1: 3c8ed5bfbb269fcb65e594d07ad619b603fa6639
+MD5sum: bf7311ec9af44bd1a75474a265d36c3c
+Description: OpenLDAP Client Binaries
+
+Package: zimbra-openldap-client-dbg
+Source: zimbra-openldap
+Version: 2.4.49-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 337
+Depends: zimbra-openldap-client (= 2.4.49-1zimbra8.8b1.18.04)
+Multi-Arch: same
+Homepage: http://www.openldap.org/
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-openldap/zimbra-openldap-client-dbg_2.4.49-1zimbra8.8b1.18.04_amd64.deb
+Size: 189288
+SHA256: ea7f66c9f0a1374063306c7247d96f8ec48fe5545e0aec77588a7f31a614a872
+SHA1: d97451ef45d6f3e1d7c41f8ec378d752ce9c40ed
+MD5sum: 090b247331033fd3edb18808a32fe238
+Description: OpenLDAP binary debug information
+Build-Ids: 235dd37fd577e974fb5f6b4efd9486d97e03b019 254fb16ccf5d893c0f05076f997d6ac241c6943d 3900af40a8bead3b56d54b2ba2d0e51d6138a7a5 815d3cf30d868462364bd1c4d36a7f65c3462303 97e3cbeab08948bac593305e12aa5a2888e4e6ba d1030bbfe2e08919602a0339a53fd82929d8d4f5 d9f106042135a1f7ae5b17b29ba955ea23f172c5 da11370a5b7961d84a0dea32583baae0e00700a7 daf723a1e6675e92ffebfd6d11f718cd3870b6e4
+
+Package: zimbra-openldap-dev
+Source: zimbra-openldap
+Version: 2.4.49-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 1574
+Depends: zimbra-openldap-lib (= 2.4.49-1zimbra8.8b1.18.04)
+Multi-Arch: same
+Homepage: http://www.openldap.org/
+Priority: optional
+Section: libdevel
+Filename: pool/zimbra/z/zimbra-openldap/zimbra-openldap-dev_2.4.49-1zimbra8.8b1.18.04_amd64.deb
+Size: 177332
+SHA256: 2ad30d8df156148cbdf99c703efacb8a4ae2d248679bd922cbc3daabfa8ea7b2
+SHA1: 0c4e11485b8f495728acf113e6c9abf625c1921a
+MD5sum: e21d4b417596f79fa6c1d4f1510c1223
+Description: OpenLDAP development pieces
+
+Package: zimbra-openldap-lib
+Source: zimbra-openldap
+Version: 2.4.49-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 812
+Depends: libc6 (>= 2.14), zimbra-cyrus-sasl-lib (>= 2.1.26-1zimbra8.7b1), zimbra-openssl-lib (>= 1.0.2t-1zimbra8.7b1), zimbra-base
+Multi-Arch: same
+Homepage: http://www.openldap.org/
+Priority: important
+Section: libs
+Filename: pool/zimbra/z/zimbra-openldap/zimbra-openldap-lib_2.4.49-1zimbra8.8b1.18.04_amd64.deb
+Size: 153752
+SHA256: 1a723cd1bf12a37db7e75fbea4dcaa0618c18431b91af36382af687c2fe40571
+SHA1: 22878834abc569e8e467a91f1f119d0efcaccd02
+MD5sum: ac7ef3f3495742e65b3b1a36d1bb8223
+Description: OpenLDAP Libraries
+
+Package: zimbra-openldap-lib-dbg
+Source: zimbra-openldap
+Version: 2.4.49-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 514
+Depends: zimbra-openldap-lib (= 2.4.49-1zimbra8.8b1.18.04)
+Multi-Arch: same
+Homepage: http://www.openldap.org/
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-openldap/zimbra-openldap-lib-dbg_2.4.49-1zimbra8.8b1.18.04_amd64.deb
+Size: 394952
+SHA256: 6d883ea899a0e9be2f1a17d00fcae48c92986721883c02dff96e4758a2562f32
+SHA1: 064bd983b90802094e0b12f6e9b922088871e7a7
+MD5sum: b6ee89eab69038511c4c32475a59b3bf
+Description: Debug information for OpenLDAP libraries
+Build-Ids: 6dfd8a23c8918b8f47ba46f4c215219991116def bcb1f6827022b38116a3c3efd4adc5d340565be5 e5e748491f2293e093d499890e57082f7be4bda5
+
+Package: zimbra-openldap-server
+Source: zimbra-openldap
+Version: 2.4.49-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 4516
+Depends: libc6 (>= 2.14), zimbra-cyrus-sasl-lib (>= 2.1.26-1zimbra8.7b1), zimbra-libltdl-lib (>= 2.2.6b-1zimbra8.7b1), zimbra-openldap-lib (= 2.4.49-1zimbra8.8b1.18.04), zimbra-ldap-base
+Homepage: http://www.openldap.org/
+Priority: optional
+Section: utils
+Filename: pool/zimbra/z/zimbra-openldap/zimbra-openldap-server_2.4.49-1zimbra8.8b1.18.04_amd64.deb
+Size: 947496
+SHA256: 3c6e6491685a9b85fd6c5a8ffbd6c69f7c0332271ee86b009e3f67f6f39f0829
+SHA1: 070536ab2b2624c14f8805a5e56712ff49eb392e
+MD5sum: 6cee22bf4497db6d407c8feabc109cda
+Description: OpenLDAP Server Binaries
+
+Package: zimbra-openldap-server-dbg
+Source: zimbra-openldap
+Version: 2.4.49-1zimbra8.8b1.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 2672
+Depends: zimbra-openldap-server (= 2.4.49-1zimbra8.8b1.18.04)
+Multi-Arch: same
+Homepage: http://www.openldap.org/
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-openldap/zimbra-openldap-server-dbg_2.4.49-1zimbra8.8b1.18.04_amd64.deb
+Size: 2173736
+SHA256: 9efd5dc29abd89066fad7906ee082c6248a5143b417b8f002c11c42dd9e2767c
+SHA1: ba237f78d102fdac6f94165e4b49b5e95b4140b0
+MD5sum: 3412735d2023bd9dac2248f5221ab9fd
+Description: OpenLDAP binary debug information
+Build-Ids: 04377b79e2a1f7d81754b630f039991bacf6e83e 0c8d098585cceb1f654f9f0b739cbefaafac01a4 1546b00c7481f450025bed151081e7ea4dd07186 17a5fd9230a6027097e024bf58dd701f2be0fe02 29e50d8b005025ec4c24390e7d9e1ed0f07e5323 2bb257d73aeb5ad0342f1f8b70978a24d3575bee 357f802300dc526985d2cb1c028b133589e32ac2 49b25e7b09247b447e1c0e3dfa47f7e64db02f67 5187e624d19d52b679d3146c80bb83ab6c71f54d 5d24a23cf81ed6c2b2cd6febdcd9a6864c11c05f 61d7658b347034b0652c9d707b34cf0b4a6a47c0 6adb5f4c5d4b609dfd7c68fc99568d1be6375874 80936ea72b5f26bf382a698c05cb9fff4b03c0ff 809b19e2c60f5f4a5894e8c034d2eefabaf9e9b0 84d6c3ec2ff98165aef5f1e3ba691b45413729b2 9e796d30b9cd85c98e7d78a2dab76a78106155d2 a10f4f37a92fc8772e2ccebd1282e61b6bb7820d a26c30bca26675b12f9deb6e0b3f702d049ace29 a788bb8c273f5db7151850778a798bdfc351258d c5aafa769736106bb7b477a66df8f621fa392166 c7e990bb360873c768769e82d70160d805bcf409 d32866fecfc4c581e21c962c3462cf6bbe89a729 d7a64def5dc2e2a10751b327471809b60db883ba d7aab13c7f65b252b919427c5feeb76b581b2ffd da642aabc111e52babf00cc5f1160e4bef8769cd e0e86b2b7ed14faef0ddb01c3c18d56a929264b7 e509e6eb8f0ed679d3fd03c18452cf5e85b080bb e7c4d3a6f619c96966351ecc872233b7cfb89ea1 ec5f5e114bfc7c819fbe4d671b865eae76992f63 ef4f86a2e5e441a13e625ae043f2efe27ccc3a92 f56fabd75f296adc405d1b8f4e950ba0887716db f6716fafcfc7462cdab893b0f7ec87f0c6d9a634
+
+Package: zimbra-openssl
+Version: 1.0.2t-1zimbra8.7b2.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 5257
+Depends: libc6 (>= 2.15), zimbra-openssl-lib (= 1.0.2t-1zimbra8.7b2.18.04), perl:any
+Homepage: https://www.openssl.org
+Priority: optional
+Section: utils
+Filename: pool/zimbra/z/zimbra-openssl/zimbra-openssl_1.0.2t-1zimbra8.7b2.18.04_amd64.deb
+Size: 555228
+SHA256: e440be58b4f88d9b27a2a53b6d84d2096c52e19389b00caa4205e2ffa93bdfbe
+SHA1: 16469d99fa39d97f1f797532cf3927742de38378
+MD5sum: e9d8f802672ae62d76651637d6e3c11d
+Description: OpenSSL Binaries
+
+Package: zimbra-openssl-dbg
+Source: zimbra-openssl
+Version: 1.0.2t-1zimbra8.7b2.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 681
+Depends: zimbra-openssl (= 1.0.2t-1zimbra8.7b2.18.04)
+Multi-Arch: same
+Homepage: https://www.openssl.org
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-openssl/zimbra-openssl-dbg_1.0.2t-1zimbra8.7b2.18.04_amd64.deb
+Size: 609528
+SHA256: 9743af14cdb3b9667b3cc8dc85d4b5feaee71231faef336c8bba3bacb6335b79
+SHA1: 1c3caf84046d4b69ecdeaf0723c11fa9896fe51a
+MD5sum: 0b5371a5af40c5e5683c0608118ef706
+Description: OpenSSL binary debug information
+Build-Ids: 69dcdf0e1651f47bd94e9ec851c225dc73cb3b2f
+
+Package: zimbra-openssl-dev
+Source: zimbra-openssl
+Version: 1.0.2t-1zimbra8.7b2.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 1762
+Depends: zimbra-openssl-lib (= 1.0.2t-1zimbra8.7b2.18.04)
+Multi-Arch: same
+Homepage: https://www.openssl.org
+Priority: optional
+Section: libdevel
+Filename: pool/zimbra/z/zimbra-openssl/zimbra-openssl-dev_1.0.2t-1zimbra8.7b2.18.04_amd64.deb
+Size: 222304
+SHA256: 0343d52a3f540f8b72cbf585f962f28b345d97a21a497d4ba9f0d40bca0d448c
+SHA1: fad658bfeb3f6000afdf1a58328f2263ced2e3e6
+MD5sum: 2d590690ddeb6e2d4d959e8b489233cd
+Description: OpenSSL development pieces
+
+Package: zimbra-openssl-lib
+Source: zimbra-openssl
+Version: 1.0.2t-1zimbra8.7b2.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 3692
+Depends: libc6 (>= 2.17), zimbra-base
+Multi-Arch: same
+Homepage: https://www.openssl.org
+Priority: important
+Section: libs
+Filename: pool/zimbra/z/zimbra-openssl/zimbra-openssl-lib_1.0.2t-1zimbra8.7b2.18.04_amd64.deb
+Size: 1242600
+SHA256: f3561676ffdeb049e176545eb73f976e7930fa65b58f7c51ae97fbde14cd450f
+SHA1: fba8b7e09046edb3614d32ff57540949cd29a55a
+MD5sum: 61dcc7b5d8d95e258b7029f30e21e35d
+Description: OpenSSL Libraries
+
+Package: zimbra-openssl-lib-dbg
+Source: zimbra-openssl
+Version: 1.0.2t-1zimbra8.7b2.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 3693
+Depends: zimbra-openssl-lib (= 1.0.2t-1zimbra8.7b2.18.04)
+Multi-Arch: same
+Homepage: https://www.openssl.org
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-openssl/zimbra-openssl-lib-dbg_1.0.2t-1zimbra8.7b2.18.04_amd64.deb
+Size: 3258328
+SHA256: 92ce57f9958fa4b0b8807a7d1d93003d83abad9233d7d77a3de75e1b7002a8f9
+SHA1: fea00c1ab32e26252e99d1d9137f0d47a683f095
+MD5sum: ff6ce9fffd28470c9b60aeccaf526528
+Description: Debug information for openssl libraries
+Build-Ids: 00370fd221486d223dfc2675e658f37fcce6797a 16c9f5a323e902003304e888bd8dadfabbe46a2c 2a1ee947d1c8fad1fd3158e12e3b6e0e0d2f5a3b 3b42c0b65d09ee1455b0e07d2cfd2e1cc117aabd 3e6c7879f5f74eacf9671712a82c436f7a1d2532 6f6c9114d1a0ed8b894cbe149f7904cddd6f3beb 7c6e5d45f23adbc391365ddd3493598e4daa08cc 8418f0897333a09a65eb3dee651788158922e387 969455394855f1d54aa63b9c05403d817828d03c 9b462a153254dd58fd1a07d3279f3e7d88fa9798 b49e90e44aa96b36d7f9958a953f1eb794e73d01 c4d721b29f0d57355f86123f2bb48e4d16cca12a c73a8d659b8aad44665e3579734cae9a2daf2fc0 e5d0e1623c469c417332763f30af60aa6fe4ff1b
+
+Package: zimbra-osl
+Version: 2.0.0-1zimbra9.0b1.18.04
+Architecture: all
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 1509
+Depends: zimbra-base
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-osl/zimbra-osl_2.0.0-1zimbra9.0b1.18.04_all.deb
+Size: 170412
+SHA256: 15c490eda2f814c68a1bf00b0e9f39f6bfc7ba15edcd54482c81e284a8c3a3f4
+SHA1: b9e9ea866b267190a4eb27d6c14586163d1a6e03
+MD5sum: 9f15803d2fe12e74bd814e51cb0d30a9
+Description: Opensource Licenses
+ This file contains the licenses for the open source 3rd party
+ software used by Zimbra
+
+Package: zimbra-patch
+Version: 9.0.0.1586024600.p0-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 253
+Depends: zimbra-store (>= 9.0.0)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-patch/zimbra-patch_9.0.0.1586024600.p0-1.u18_amd64.deb
+Size: 37524
+SHA256: 2fadae91aba6657ef860a308995e86ec775ff158f6c74ab3f29e560bc21c780d
+SHA1: d4ac116f0515e69632076d5a31ee895bfc68048d
+MD5sum: 5e49da931926c4c706cd6d4ce6937f73
+Description: Zimbra Patch
+
+Package: zimbra-patch
+Version: 9.0.0.1581424173.p0-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 9
+Depends: zimbra-store (>= 9.0.0)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-patch/zimbra-patch_9.0.0.1581424173.p0-1.u18_amd64.deb
+Size: 1192
+SHA256: 9be6b40cff26d8eb8401d719d0915a6ad682ed9883be3ac74c406a9ef71c84c1
+SHA1: a860716df7deeff656b800fac6f33779cafa178c
+MD5sum: f21e6a8b56093c80e65d99c05b3d29d3
+Description: Zimbra Patch
+
+Package: zimbra-perl-mail-spamassassin
+Version: 3.4.4-1zimbra8.8b1.18.04
+Architecture: all
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 3657
+Depends: perl, zimbra-perl-base, zimbra-perl-digest-sha1, zimbra-perl-net-dns, zimbra-perl-html-parser, zimbra-perl-io-compress, zimbra-perl-mail-spf, zimbra-perl-mail-dkim, zimbra-perl-netaddr-ip, zimbra-perl-net-cidr-lite, zimbra-perl-encode-detect, zimbra-mta-base
+Homepage: https://metacpan.org/release/Mail-SpamAssassin
+Priority: optional
+Section: perl
+Filename: pool/zimbra/z/zimbra-perl-mail-spamassassin/zimbra-perl-mail-spamassassin_3.4.4-1zimbra8.8b1.18.04_all.deb
+Size: 635520
+SHA256: b48ba8dabd2c22b5efec6eb26fa4c1c4a07145142d5205cda5e398baf0a13ba8
+SHA1: 38fe813863ae0592acebf153cddc59073a8f860c
+MD5sum: 55106dfc588c529a2063980702622015
+Description: Mail::SpamAssassin - Spam detector and markup engine
+ Mail::SpamAssassin is a module to identify spam using several methods
+ including text analysis, internet-based realtime blacklists, statistical
+ analysis, and internet-based hashing algorithms.
+
+Package: zimbra-php
+Version: 7.3.1-1zimbra8.7b3.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 12591
+Depends: libc6 (>= 2.27), zimbra-aspell-lib (>= 0.60.7-rc1-1zimbra8.7b1), zimbra-libxml2-lib (>= 2.9.4-1zimbra8.7b1), zimbra-spell-base
+Homepage: http://php.apache.org
+Priority: optional
+Section: utils
+Filename: pool/zimbra/z/zimbra-php/zimbra-php_7.3.1-1zimbra8.7b3.18.04_amd64.deb
+Size: 2489136
+SHA256: 792df80897c0ce98ed479e1b0ad6753cba003bfb3260f8dc17b0e1c1a51327ac
+SHA1: a7e18f4271b7a8172ae3aab2dce556c8a3638dd5
+MD5sum: d95ba910eba087f8fd0547ab1806741d
+Description: PHP Apache Module
+
+Package: zimbra-php
+Version: 5.6.31-1zimbra8.7b2.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 9780
+Depends: libc6 (>= 2.27), zimbra-aspell-lib (>= 0.60.7-rc1-1zimbra8.7b1), zimbra-libxml2-lib (>= 2.9.4-1zimbra8.7b1), zimbra-spell-base
+Homepage: http://php.apache.org
+Priority: optional
+Section: utils
+Filename: pool/zimbra/z/zimbra-php/zimbra-php_5.6.31-1zimbra8.7b2.18.04_amd64.deb
+Size: 2192920
+SHA256: 73152c5091eb84cd2eb5d23bf9d9c5920e9aa3815b07612542ab0a0ac523e122
+SHA1: 6a8d62cf75dbc39094a520e01a58528190e48866
+MD5sum: 056aa0d9ed2affe177b2854fb48aec89
+Description: PHP Apache Module
+
+Package: zimbra-php-dbg
+Source: zimbra-php
+Version: 7.3.1-1zimbra8.7b3.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 11167
+Depends: zimbra-php (= 7.3.1-1zimbra8.7b3.18.04)
+Multi-Arch: same
+Homepage: http://php.apache.org
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-php/zimbra-php-dbg_7.3.1-1zimbra8.7b3.18.04_amd64.deb
+Size: 10580884
+SHA256: aa70276d04815d3bb0ed878a354f793cd226c0d222b571020373dfcd4e3ac057
+SHA1: 6d6607a865b0bc91e97a3f9ddff0996bfb41ae1e
+MD5sum: b078dc02204ab816934982bdee2c178b
+Description: PHP Apache Module debug information
+Build-Ids: 1b5842edbcbe2870cd978e1ed1c10612dc1dcefa
+
+Package: zimbra-php-dbg
+Source: zimbra-php
+Version: 5.6.31-1zimbra8.7b2.18.04
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 9078
+Depends: zimbra-php (= 5.6.31-1zimbra8.7b2.18.04)
+Multi-Arch: same
+Homepage: http://php.apache.org
+Priority: extra
+Section: debug
+Filename: pool/zimbra/z/zimbra-php/zimbra-php-dbg_5.6.31-1zimbra8.7b2.18.04_amd64.deb
+Size: 8633368
+SHA256: 930bff5823952973cca9c754d6a9d665c190efad66150999a5e7f7394958e45f
+SHA1: 3f28908293961a570dbbed24710a7d5d733ac874
+MD5sum: 81da1bdc22604a2aa4426b32d6f5b8b1
+Description: PHP Apache Module debug information
+Build-Ids: 9a71c7b7b37621efee2109a6a58eb3ecff0faa2a
+
+Package: zimbra-proxy-components
+Version: 1.0.4-1zimbra8.8b1.18.04
+Architecture: all
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 8
+Depends: zimbra-proxy-base, zimbra-nginx (>= 1.7.1-1zimbra8.8b1.18.04)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-proxy-components/zimbra-proxy-components_1.0.4-1zimbra8.8b1.18.04_all.deb
+Size: 1676
+SHA256: bbbef39c9d845528cdf26c1914303457ceccb62b9b24b645b237559932cf49dc
+SHA1: 8e9351ee8a9adfaecf46b8f79251bbf4517bf812
+MD5sum: 08c471c6f93739e13950e593e5da33a0
+Description: Zimbra components for proxy package
+ Zimbra proxy components pulls in all the packages used by
+ zimbra-proxy
+
+Package: zimbra-proxy-components
+Version: 1.0.3-1zimbra8.7b1.18.04
+Architecture: all
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 8
+Depends: zimbra-proxy-base, zimbra-nginx (>= 1.7.1-1zimbra8.7b12.18.04)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-proxy-components/zimbra-proxy-components_1.0.3-1zimbra8.7b1.18.04_all.deb
+Size: 1660
+SHA256: a199e25e99673e9605846f0fe72e2020ee088942f06f6a8091e24ce2d830a10f
+SHA1: 6599f84ae1f3c7ba48b78789f93762451cf19cc8
+MD5sum: b97c697c35f66931644b6c51cabb4880
+Description: Zimbra components for proxy package
+ Zimbra proxy components pulls in all the packages used by
+ zimbra-proxy
+
+Package: zimbra-proxy-patch
+Version: 9.0.0.1552427139.p0-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 9
+Depends: zimbra-proxy (>= 9.0.0)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-proxy-patch/zimbra-proxy-patch_9.0.0.1552427139.p0-1.u18_amd64.deb
+Size: 1212
+SHA256: 574b08058184f41305e06e21abc672810d8eba8e6e3e815187ba4086f2c2ffd4
+SHA1: 6f3ee983c2ef78852deaaf4de7319fb7c5f0a859
+MD5sum: 80edaf8111cd3ba22c834ab2f95671a8
+Description: Zimbra proxy Patch
+
+Package: zimbra-proxy-patch
+Version: 8.8.15.1552427139.p0-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 9
+Depends: zimbra-proxy (>= 8.8.15)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-proxy-patch/zimbra-proxy-patch_8.8.15.1552427139.p0-1.u18_amd64.deb
+Size: 1220
+SHA256: 16045685c13db8eee3c3a21c76d5013c7ea32c4d3672a28cc4a6b548bd3c5f7f
+SHA1: 48018408b6251d2fc82510d913e17fa466dbf27f
+MD5sum: 63d3aa3a206f76ab6027892f610ed592
+Description: Zimbra proxy Patch
+
+Package: zimbra-spamassassin-rules
+Version: 1.0.0-1zimbra8.8b1.18.04
+Architecture: all
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 1137
+Depends: zimbra-mta-base, zimbra-perl-mail-spamassassin (>= 3.4.4-1zimbra8.8b1ZAPPEND)
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-spamassassin-rules/zimbra-spamassassin-rules_1.0.0-1zimbra8.8b1.18.04_all.deb
+Size: 259252
+SHA256: 6ad9157ae94639ef63e74a29227d22c895ffd7d3bdd19db7a2d695c66d2ff086
+SHA1: 262c7a9b418d58969190fa5cf5a9255899b3f241
+MD5sum: 76e55ecc9ba662805c3530fc2292a5ff
+Description: Default ruleset for SpamAssassin
+ Default ruleset for SpamAssassin
+
+Package: zimbra-spell-components
+Version: 2.0.0-1zimbra8.8b1.18.04
+Architecture: all
+Maintainer: Zimbra Packaging Services <packaging-devel@zimbra.com>
+Installed-Size: 8
+Depends: zimbra-spell-base, zimbra-aspell-ar, zimbra-aspell-da, zimbra-aspell-de, zimbra-aspell-en, zimbra-aspell-es, zimbra-aspell-fr, zimbra-aspell-hi, zimbra-aspell-hu, zimbra-aspell-it, zimbra-aspell-nl, zimbra-aspell-pl, zimbra-aspell-pt-br, zimbra-aspell-ru, zimbra-aspell-sv, zimbra-httpd, zimbra-php (>= 7.3.1-1zimbra8.7b3.18.04), zimbra-aspell-zimbra
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-spell-components/zimbra-spell-components_2.0.0-1zimbra8.8b1.18.04_all.deb
+Size: 1644
+SHA256: 6443d47c50b05a333224bf8ece136a7880133efe1a002a9981dbe84a3806d533
+SHA1: 37f4bdd2ca797ec85f3cf70d45eff5299311d6d7
+MD5sum: 0effc955e1a31ceb0b153ca66545ab1d
+Description: Zimbra components for spell package
+ Zimbra spell components pulls in all the packages used by
+ zimbra-spell
+
+Package: zimbra-timezone-data
+Version: 3.0.0.1582143009-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 916
+Depends: zimbra-core-components
+Replaces: zimbra-core, zimbra-store
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-timezone-data/zimbra-timezone-data_3.0.0.1582143009-1.u18_amd64.deb
+Size: 48272
+SHA256: f97e2c763812caebadcd0137f6fff16ce19b782818c6f78f61af715f8959916a
+SHA1: 4c73cd5b91a9fb45a512d3a55425c95143eeaf4f
+MD5sum: f8201aecbff1fc109e4c5a52c6de8669
+Description: Zimbra Timezone Data
+
+Package: zimbra-timezone-data
+Version: 1.0.1+1565604774-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 916
+Depends: zimbra-core-components
+Replaces: zimbra-core, zimbra-store
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-timezone-data/zimbra-timezone-data_1.0.1+1565604774-1.u18_amd64.deb
+Size: 48284
+SHA256: 40df75a69b6aa03f241604220fc9cef8d91d7fdb22231d83d712ccd3b7d6a98d
+SHA1: 305cd0852f7d91dd1b843d01c7a6f52f56fda2b7
+MD5sum: 85365c48b12b8899c046e8a9319d75ec
+Description: Zimbra Timezone Data
+
+Package: zimbra-timezone-data
+Version: 1.0.1+1565596046-1.u18
+Architecture: amd64
+Maintainer: Zimbra Packaging Services <build@zimbra.com>
+Installed-Size: 916
+Depends: zimbra-core-components
+Replaces: zimbra-core, zimbra-store
+Priority: optional
+Section: mail
+Filename: pool/zimbra/z/zimbra-timezone-data/zimbra-timezone-data_1.0.1+1565596046-1.u18_amd64.deb
+Size: 48284
+SHA256: 49751d91f772d4fb7469246c9adb0130c00fb37752dd3b7c9e02681b3b8d72a7
+SHA1: 9a0b0ef42efdccea5b501f90d90ff10eaf8a4092
+MD5sum: 90c4ca81fd832e494c3d1b1865730923
+Description: Zimbra Timezone Data
+
