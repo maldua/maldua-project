@@ -14,6 +14,10 @@ Just use the [project issues page](https://github.com/maldua/maldua-project/issu
  * Mirror current github Zimbra repos (and automate it) [**Done**]
  * Write FAQ explaining the project [**Done**]
 
+# About Zimbra 9
+
+You can learn some insights on Zimbra 9 not releasing an Open Source Edition on our [Zimbra 9 pseudo FOSS versus NE](zimbra-9-pseudo-foss-versus-ne.md) article.
+
 # FAQ about maldua-project
 ## What about the maldua name?
 The [@ (at) symbol](https://en.wikipedia.org/wiki/At_sign) is called:
