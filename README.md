@@ -85,3 +85,8 @@ If my company relied on an 80% percentage on clients whom care on Zimbra being o
 
 # maldua-mirror
 [maldua-mirror](https://github.com/maldua-mirror/maldua-mirror) updates its own git repo fork for each one of the Zimbra organization repos daily at 05:30 UTC. You can explore the forked repos at the [maldua-mirror organization page](https://github.com/maldua-mirror).
+
+# Other Zimbra forks
+## BeeZim Zimbra 9 FOSS
+* [Zimbra 9 OSS by Beezim](http://www.beezim.fr/pages/zimbra-9-oss/)
+* [BeezimOSS zimbra9-foss github repo](https://github.com/beezimOSS/zimbra9-foss)
