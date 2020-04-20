@@ -466,18 +466,3 @@ If you were able to choose Zimbra 9 OSE packages (see above *90 packages* sectio
 zimbra chat and zimbra drive. Everything else would be software you already find on Zimbra 8.7 OSE packages: Clamav, Apache, Jetty, Lmdb, mta, nginx, ldap, openssl, spamassassin, spell and a few more others.
 
 No modern ui.
-
-# Enjoy Zimbra 9.0 Pseudo FOSS right now
-
-Disclaimer: This procedure has not been tested and it does not mean that what you install on your system would be 100% open source. Someone would need to double check it.
-
-```
-wget "https://files.zimbra.com/downloads/9.0.0_GA/zcs-NETWORK-9.0.0_GA_3924.UBUNTU18_64.20200331010312.tgz"
-tar xzf zcs-NETWORK-9.0.0_GA_3924.UBUNTU18_64.20200331010312.tgz
-cd zcs-NETWORK-9.0.0_GA_3924.UBUNTU18_64.20200331010312.tgz
-cp .BUILD_TYPE dotBUILD_TYPE-ORIGINAL-20200417
-echo "FOSS" > .BUILD_TYPE
-sudo ./install.sh
-```
-
-This procedure might be used to experience what a 9.0 FOSS edition would have been. And also to check the changes since ZCS 8.8.15 to the Zimbra FOSS core.
