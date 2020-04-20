@@ -93,4 +93,4 @@ If my company relied on an 80% percentage on clients whom care on Zimbra being o
 ## jorgedelacruz.es build process
 * [Zimbra 9  - FOSS on Zimbra forums](https://forums.zimbra.org/viewtopic.php?f=15&t=68097#p296872)
 * [Grabación - Zimbra: Compilar Zimbra 9 desde los repositorios oficiales de Zimbra](https://www.youtube.com/watch?v=_RaMm2xo0HM)
-* [Complete Twitch video](https://m.twitch.tv/videos/594797558)
+* [Complete Twitch video](https://www.twitch.tv/videos/594797558)
