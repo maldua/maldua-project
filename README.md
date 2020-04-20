@@ -10,6 +10,7 @@ Just use the [project issues page](https://github.com/maldua/maldua-project/issu
  * Automate Ubuntu 16.04 builds and releases thanks to github actions (or equivalent)
  * Document changes needed to decouple current build from Zimbra (or other external) servers (I.e. https://github.com/Zimbra/zm-zextras/blob/4e3bc897ecff92e64516c69d08c0b5c36430de08/Makefile which relies on AWS servers).
  * files.zimbra.com for 3rd party packages replacement
+ * repo.zimbra.com Debian package repository replacement
 
 # 2019 year objectives
  * Mirror current github Zimbra repos (and automate it) [**Done**]
